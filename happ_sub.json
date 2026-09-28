@@ -1,0 +1,987 @@
+{
+  "remarks": "Happ Auto Sub",
+  "outbounds": [
+    {
+      "tag": "⬇️ Внизу Домашние (Wi-Fi) ⬇️",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "0.0.0.0",
+            "port": 2083,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "bg.learnyouthinspire.co.uk",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 Нидерланды (40 ГБит/с) ⚡🤖🏴‍☠️🎮",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "argentinayamaika.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/api/v1/stream",
+          "headers": {
+            "Host": "argentinayamaika.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "argentinayamaika.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 Нидерланды ⚡🤖📺🏴‍☠️",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "imtiredboss.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/api/v1/stream",
+          "headers": {
+            "Host": "imtiredboss.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "imtiredboss.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 Болгария ⚡🤖📺",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "sharkproposal.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/notvlessklyanus",
+          "headers": {
+            "Host": "sharkproposal.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "sharkproposal.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷  Франция ⚡🤖",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "shtrafostan.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/notvlessklyanus",
+          "headers": {
+            "Host": "shtrafostan.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "shtrafostan.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша ⚡🤖📺🎮",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "curtainground.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/vless",
+          "headers": {
+            "Host": "curtainground.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "curtainground.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 США 🤖",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "obamachmo.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/notvlessklyanus",
+          "headers": {
+            "Host": "obamachmo.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "obamachmo.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия ⚡📺",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "justbecompetent.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/vless",
+          "headers": {
+            "Host": "justbecompetent.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "justbecompetent.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 Япония 🤖",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "rahmetsempai.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/vless",
+          "headers": {
+            "Host": "rahmetsempai.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "rahmetsempai.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 Турция 🤖",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "kebabyumyum.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/vless",
+          "headers": {
+            "Host": "kebabyumyum.net"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "kebabyumyum.net",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 Питер-Невский 📺",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "burnblue.duckdns.org",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/vless",
+          "headers": {
+            "Host": "burnblue.duckdns.org"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "burnblue.duckdns.org",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 Питер-Гавань 📺",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "grusniikot.duckdns.org",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/vless",
+          "headers": {
+            "Host": "grusniikot.duckdns.org"
+          }
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "grusniikot.duckdns.org",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "⬇️ Внизу Обходы (LTE) ⬇️",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "0.0.0.0",
+            "port": 3443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "chrome",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "",
+          "spiderX": "",
+          "serverName": "gismeteo.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺🦊 Все операторы ⚡️ (-Йота)",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "birthdaysale.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "birthdaysale.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇪🇺🦊 Все операторы ⚡️ (-Йота)",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "birthdaysale.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "birthdaysale.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺🐭 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "9micenasralnakover.net",
+            "port": 2053,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "9micenasralnakover.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺🐳 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fitindoor.net",
+            "port": 2053,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "fitindoor.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺🍓 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "dismissaltree.net",
+            "port": 2053,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "dismissaltree.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺🦝 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "summerculture.net",
+            "port": 2053,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "summerculture.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇪🇺🐭 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "9micenasralnakover.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "9micenasralnakover.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇪🇺🐳 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fitindoor.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "fitindoor.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇪🇺🍓 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "dismissaltree.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "dismissaltree.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇪🇺🦝 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "summerculture.net",
+            "port": 8443,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "summerculture.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺🍏 Все операторы",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.141.227.178",
+            "port": 2053,
+            "users": [
+              {
+                "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "firefox",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "",
+          "spiderX": "",
+          "serverName": "eh7.vk.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 Россия",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru.tcp.nytrexvpn.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "f9397314-e0bf-4d73-8de3-6087565404b9",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "firefox",
+          "publicKey": "IQHYPWvtBwZxV1vKgxg73_DU5PiTNJCmU4IE0Lhc3TY",
+          "shortId": "351005c10f53650e",
+          "spiderX": "",
+          "serverName": "ru.tcp.nytrexvpn.com"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша | TCP",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "poland.eter.tcp.nytrexvpn.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "f9397314-e0bf-4d73-8de3-6087565404b9",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "poland.eter.tcp.nytrexvpn.com",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша | gRPC",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "poland.eter.grpc.nytrexvpn.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "f9397314-e0bf-4d73-8de3-6087565404b9",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "grpcSettings": {
+          "serviceName": "",
+          "multiMode": false
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "poland.eter.grpc.nytrexvpn.com",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 Нидерланды | TCP",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "niderland.eter.tcp.nytrexvpn.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "f9397314-e0bf-4d73-8de3-6087565404b9",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "niderland.eter.tcp.nytrexvpn.com",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия #1 | TCP",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "germany.ded.tcp.nytrexvpn.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "f9397314-e0bf-4d73-8de3-6087565404b9",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "firefox",
+          "publicKey": "IQHYPWvtBwZxV1vKgxg73_DU5PiTNJCmU4IE0Lhc3TY",
+          "shortId": "351005c10f53650e",
+          "spiderX": "",
+          "serverName": "germany.ded.tcp.nytrexvpn.com"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 Нидерланды | gRPC",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "niderland.eter.grpc.nytrexvpn.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "f9397314-e0bf-4d73-8de3-6087565404b9",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "grpcSettings": {
+          "serviceName": "",
+          "multiMode": false
+        },
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "niderland.eter.grpc.nytrexvpn.com",
+          "alpn": [],
+          "allowInsecure": false
+        }
+      }
+    }
+  ]
+}
