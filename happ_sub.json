@@ -620,7 +620,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl1.nnmm.me",
+              "address": "ee1.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -635,7 +635,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl1.nnmm.me",
+            "serverName": "ee1.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -1374,7 +1374,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de3.nnmm.me",
+              "address": "nl3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -1389,7 +1389,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de3.nnmm.me",
+            "serverName": "nl3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -2056,7 +2056,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de.nngo.cc",
+              "address": "de6.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2071,7 +2071,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de.nngo.cc",
+            "serverName": "de6.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -2774,7 +2774,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl2.nngo.cc",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2789,7 +2789,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl2.nngo.cc",
+            "serverName": "nl3.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -3492,7 +3492,7 @@
         "settings": {
           "servers": [
             {
-              "address": "sw.nnmm.me",
+              "address": "sw1.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -3503,7 +3503,7 @@
           "tcpSettings": {},
           "security": "tls",
           "tlsSettings": {
-            "serverName": "sw.nnmm.me",
+            "serverName": "sw1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -3524,7 +3524,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de3.nnmm.me",
+              "address": "nl3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -3539,7 +3539,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de3.nnmm.me",
+            "serverName": "nl3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -7953,7 +7953,7 @@
         "settings": {
           "servers": [
             {
-              "address": "kz1.nnmm.me",
+              "address": "kz2.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -7968,7 +7968,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "kz1.nnmm.me",
+            "serverName": "kz2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -8176,7 +8176,7 @@
         "settings": {
           "servers": [
             {
-              "address": "ee1.nnmm.me",
+              "address": "uk.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8191,7 +8191,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "ee1.nnmm.me",
+            "serverName": "uk.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -8211,7 +8211,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.170",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8226,7 +8226,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8440,7 +8440,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z8.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8460,7 +8460,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.170",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8475,7 +8475,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8640,7 +8640,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.170",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8655,7 +8655,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8888,7 +8888,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.170",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8903,7 +8903,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -9102,7 +9102,7 @@
         "settings": {
           "servers": [
             {
-              "address": "188.225.77.239",
+              "address": "188.225.37.85",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -9117,7 +9117,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -9138,7 +9138,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.170",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -9153,7 +9153,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
