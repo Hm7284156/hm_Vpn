@@ -620,7 +620,7 @@
         "settings": {
           "servers": [
             {
-              "address": "ee2.nnmm.me",
+              "address": "ee1.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -635,7 +635,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "ee2.nnmm.me",
+            "serverName": "ee1.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -715,7 +715,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇪🇺 Временный резерв"
+    "remarks": "[J1] 🇪🇺 Временный резерв"
   },
   {
     "dns": {
@@ -1433,7 +1433,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇪🇪 Эстония"
+    "remarks": "[J1] 🇪🇪 Эстония"
   },
   {
     "dns": {
@@ -2056,7 +2056,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de5.nngo.cc",
+              "address": "de.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2071,7 +2071,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de5.nngo.cc",
+            "serverName": "de.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -2151,7 +2151,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇩🇪 Германия"
+    "remarks": "[J1] 🇩🇪 Германия"
   },
   {
     "dns": {
@@ -2774,7 +2774,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl3.nngo.cc",
+              "address": "nl2.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2789,7 +2789,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl3.nngo.cc",
+            "serverName": "nl2.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -2869,7 +2869,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇳🇱 Нидерланды"
+    "remarks": "[J1] 🇳🇱 Нидерланды"
   },
   {
     "dns": {
@@ -3583,7 +3583,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇨🇭 Швейцария"
+    "remarks": "[J1] 🇨🇭 Швейцария"
   },
   {
     "dns": {
@@ -4301,7 +4301,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇵🇱 Польша"
+    "remarks": "[J1] 🇵🇱 Польша"
   },
   {
     "dns": {
@@ -5018,7 +5018,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇹🇷 Турция 🐌"
+    "remarks": "[J1] 🇹🇷 Турция 🐌"
   },
   {
     "dns": {
@@ -5736,7 +5736,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇫🇮 Финляндия 🐌"
+    "remarks": "[J1] 🇫🇮 Финляндия 🐌"
   },
   {
     "dns": {
@@ -5896,7 +5896,7 @@
         "protocol": "blackhole"
       }
     ],
-    "remarks": "🇺🇸 США"
+    "remarks": "[J1] 🇺🇸 США"
   },
   {
     "dns": {
@@ -6613,7 +6613,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇯🇵 Япония"
+    "remarks": "[J1] 🇯🇵 Япония"
   },
   {
     "dns": {
@@ -7330,7 +7330,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇷🇺 Россия"
+    "remarks": "[J1] 🇷🇺 Россия"
   },
   {
     "dns": {
@@ -7953,7 +7953,7 @@
         "settings": {
           "servers": [
             {
-              "address": "kz2.nnmm.me",
+              "address": "kz1.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -7968,7 +7968,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "kz2.nnmm.me",
+            "serverName": "kz1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -8048,7 +8048,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇰🇿 Казахстан 🐌"
+    "remarks": "[J1] 🇰🇿 Казахстан 🐌"
   },
   {
     "dns": {
@@ -8211,7 +8211,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8226,7 +8226,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8263,7 +8263,7 @@
         "Fall"
       ]
     },
-    "remarks": "🇪🇺 Обход¹"
+    "remarks": "[J1] 🇪🇺 Обход¹"
   },
   {
     "dns": {
@@ -8440,7 +8440,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z10.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8460,7 +8460,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8475,7 +8475,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8512,7 +8512,7 @@
         "Fall"
       ]
     },
-    "remarks": "🇪🇺Обход² 🐌(МТС)"
+    "remarks": "[J1] 🇪🇺Обход² 🐌(МТС)"
   },
   {
     "dns": {
@@ -8640,7 +8640,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8655,7 +8655,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8691,7 +8691,7 @@
         "Auto1"
       ]
     },
-    "remarks": "🇪🇺Обход³ 🐌(Мегафон, Yota)"
+    "remarks": "[J1] 🇪🇺Обход³ 🐌(Мегафон, Yota)"
   },
   {
     "dns": {
@@ -8868,7 +8868,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -8888,7 +8888,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -8903,7 +8903,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -8940,7 +8940,7 @@
         "Fall"
       ]
     },
-    "remarks": "🇪🇺Обход⁴ 🐌(Билайн, Теле2)"
+    "remarks": "[J1] 🇪🇺Обход⁴ 🐌(Билайн, Теле2)"
   },
   {
     "dns": {
@@ -9102,7 +9102,7 @@
         "settings": {
           "servers": [
             {
-              "address": "188.225.27.117",
+              "address": "188.225.56.29",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -9117,7 +9117,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z5.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -9138,7 +9138,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -9153,7 +9153,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "random",
             "alpn": [
@@ -9190,7 +9190,7 @@
         "Fall"
       ]
     },
-    "remarks": "🇪🇺 Обход⁵ 🐌🐌"
+    "remarks": "[J1] 🇪🇺 Обход⁵ 🐌🐌"
   },
   {
     "dns": {
@@ -9356,10 +9356,10 @@
         "protocol": "blackhole"
       }
     ],
-    "remarks": "🇷🇺 Обход⁶ 🐌🐌 (Резерв)"
+    "remarks": "[J1] 🇷🇺 Обход⁶ 🐌🐌 (Резерв)"
   },
   {
-    "remarks": "⬇️ Внизу Домашние (Wi-Fi) ⬇️",
+    "remarks": "[V1] ⬇️ Внизу Домашние (Wi-Fi) ⬇️",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9412,7 +9412,7 @@
     ]
   },
   {
-    "remarks": "🇳🇱 Нидерланды (40 ГБит/с) ⚡🤖🏴‍☠️🎮",
+    "remarks": "[V1] 🇳🇱 Нидерланды (40 ГБит/с) ⚡🤖🏴‍☠️🎮",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9471,7 +9471,7 @@
     ]
   },
   {
-    "remarks": "🇳🇱 Нидерланды ⚡🤖📺🏴‍☠️",
+    "remarks": "[V1] 🇳🇱 Нидерланды ⚡🤖📺🏴‍☠️",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9530,7 +9530,7 @@
     ]
   },
   {
-    "remarks": "🇧🇬 Болгария ⚡🤖📺",
+    "remarks": "[V1] 🇧🇬 Болгария ⚡🤖📺",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9589,7 +9589,7 @@
     ]
   },
   {
-    "remarks": "🇫🇷  Франция ⚡🤖",
+    "remarks": "[V1] 🇫🇷  Франция ⚡🤖",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9648,7 +9648,7 @@
     ]
   },
   {
-    "remarks": "🇵🇱 Польша ⚡🤖📺🎮",
+    "remarks": "[V1] 🇵🇱 Польша ⚡🤖📺🎮",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9707,7 +9707,7 @@
     ]
   },
   {
-    "remarks": "🇺🇸 США 🤖",
+    "remarks": "[V1] 🇺🇸 США 🤖",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9766,7 +9766,7 @@
     ]
   },
   {
-    "remarks": "🇩🇪 Германия ⚡📺",
+    "remarks": "[V1] 🇩🇪 Германия ⚡📺",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9825,7 +9825,7 @@
     ]
   },
   {
-    "remarks": "🇯🇵 Япония 🤖",
+    "remarks": "[V1] 🇯🇵 Япония 🤖",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9884,7 +9884,7 @@
     ]
   },
   {
-    "remarks": "🇹🇷 Турция 🤖",
+    "remarks": "[V1] 🇹🇷 Турция 🤖",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -9943,7 +9943,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺 Питер-Невский 📺",
+    "remarks": "[V1] 🇷🇺 Питер-Невский 📺",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10002,7 +10002,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺 Питер-Гавань 📺",
+    "remarks": "[V1] 🇷🇺 Питер-Гавань 📺",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10061,7 +10061,7 @@
     ]
   },
   {
-    "remarks": "⬇️ Внизу Обходы (LTE) ⬇️",
+    "remarks": "[V1] ⬇️ Внизу Обходы (LTE) ⬇️",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10117,7 +10117,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺🦊 Все операторы ⚡️ (-Йота)",
+    "remarks": "[V1] 🇷🇺🦊 Все операторы ⚡️ (-Йота)",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10174,7 +10174,7 @@
     ]
   },
   {
-    "remarks": "🇪🇺🦊 Все операторы ⚡️ (-Йота)",
+    "remarks": "[V1] 🇪🇺🦊 Все операторы ⚡️ (-Йота)",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10231,7 +10231,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺🐭 Все операторы",
+    "remarks": "[V1] 🇷🇺🐭 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10288,7 +10288,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺🐳 Все операторы",
+    "remarks": "[V1] 🇷🇺🐳 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10345,7 +10345,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺🍓 Все операторы",
+    "remarks": "[V1] 🇷🇺🍓 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10402,7 +10402,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺🦝 Все операторы",
+    "remarks": "[V1] 🇷🇺🦝 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10459,7 +10459,7 @@
     ]
   },
   {
-    "remarks": "🇪🇺🐭 Все операторы",
+    "remarks": "[V1] 🇪🇺🐭 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10516,7 +10516,7 @@
     ]
   },
   {
-    "remarks": "🇪🇺🐳 Все операторы",
+    "remarks": "[V1] 🇪🇺🐳 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10573,7 +10573,7 @@
     ]
   },
   {
-    "remarks": "🇪🇺🍓 Все операторы",
+    "remarks": "[V1] 🇪🇺🍓 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10630,7 +10630,7 @@
     ]
   },
   {
-    "remarks": "🇪🇺🦝 Все операторы",
+    "remarks": "[V1] 🇪🇺🦝 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10687,7 +10687,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺🍏 Все операторы",
+    "remarks": "[V1] 🇷🇺🍏 Все операторы",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10743,7 +10743,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺 Россия",
+    "remarks": "[MV] 🇷🇺 Россия",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10799,7 +10799,7 @@
     ]
   },
   {
-    "remarks": "🇵🇱 Польша | TCP",
+    "remarks": "[MV] 🇵🇱 Польша | TCP",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10852,7 +10852,7 @@
     ]
   },
   {
-    "remarks": "🇵🇱 Польша | gRPC",
+    "remarks": "[MV] 🇵🇱 Польша | gRPC",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10909,7 +10909,7 @@
     ]
   },
   {
-    "remarks": "🇳🇱 Нидерланды | TCP",
+    "remarks": "[MV] 🇳🇱 Нидерланды | TCP",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -10962,7 +10962,7 @@
     ]
   },
   {
-    "remarks": "🇩🇪 Германия #1 | TCP",
+    "remarks": "[MV] 🇩🇪 Германия #1 | TCP",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
@@ -11018,7 +11018,7 @@
     ]
   },
   {
-    "remarks": "🇳🇱 Нидерланды | gRPC",
+    "remarks": "[MV] 🇳🇱 Нидерланды | gRPC",
     "routing": {
       "domainStrategy": "IPIfNonMatch",
       "rules": [
