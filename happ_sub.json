@@ -742,7 +742,7 @@
         "settings": {
           "servers": [
             {
-              "address": "uk2.nngo.cc",
+              "address": "ee1.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -757,7 +757,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "uk2.nngo.cc",
+            "serverName": "ee1.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -2422,7 +2422,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de5.nngo.cc",
+              "address": "de.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2437,7 +2437,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de5.nngo.cc",
+            "serverName": "de.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10308,7 +10308,7 @@
         "settings": {
           "servers": [
             {
-              "address": "kz1.nnmm.me",
+              "address": "kz2.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10323,7 +10323,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "kz1.nnmm.me",
+            "serverName": "kz2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10582,7 +10582,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z5.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10833,7 +10833,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z5.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11014,7 +11014,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z5.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11050,7 +11050,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11264,7 +11264,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -11300,7 +11300,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z5.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11515,7 +11515,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -11551,7 +11551,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z5.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -22623,7 +22623,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.24",
+              "address": "194.55.239.41",
               "port": 443,
               "users": [
                 {
@@ -22668,7 +22668,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.20",
+              "address": "194.55.239.9",
               "port": 443,
               "users": [
                 {
@@ -22713,7 +22713,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.44",
+              "address": "194.55.239.46",
               "port": 443,
               "users": [
                 {
