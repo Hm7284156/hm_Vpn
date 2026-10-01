@@ -742,7 +742,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de6.nngo.cc",
+              "address": "de7.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -757,7 +757,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de6.nngo.cc",
+            "serverName": "de7.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -1618,7 +1618,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de3.nnmm.me",
+              "address": "nl3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -1633,7 +1633,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de3.nnmm.me",
+            "serverName": "nl3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -2422,7 +2422,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de.nngo.cc",
+              "address": "de1.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2437,7 +2437,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de.nngo.cc",
+            "serverName": "de1.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -3262,7 +3262,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl2.nngo.cc",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -3277,7 +3277,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl2.nngo.cc",
+            "serverName": "nl3.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -4135,7 +4135,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de3.nnmm.me",
+              "address": "nl3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -4150,7 +4150,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de3.nnmm.me",
+            "serverName": "nl3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10531,7 +10531,7 @@
         "settings": {
           "servers": [
             {
-              "address": "fr2.nngo.cc",
+              "address": "uk2.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10546,7 +10546,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "fr2.nngo.cc",
+            "serverName": "uk2.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10582,7 +10582,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10797,7 +10797,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10833,7 +10833,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11014,7 +11014,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11050,7 +11050,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z3.nnmm.me",
+            "serverName": "z9.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11264,7 +11264,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -11300,7 +11300,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11500,7 +11500,7 @@
         "settings": {
           "servers": [
             {
-              "address": "188.225.36.187",
+              "address": "188.225.34.31",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11515,7 +11515,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -11551,7 +11551,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11924,6 +11924,59 @@
       "rules": [
         {
           "type": "field",
+          "domain": [
+            "keyword:kinopoisk.ru",
+            "keyword:rutube.ru",
+            "keyword:ozon.ru",
+            "keyword:av.ru",
+            "keyword:gosuslugi.ru",
+            "keyword:hh.ru",
+            "keyword:vkusvill.ru",
+            "keyword:go.yandex.ru",
+            "keyword:yandex",
+            "keyword:tutu.ru",
+            "keyword:2gis.ru",
+            "keyword:lavka.yandex.ru",
+            "keyword:vkusnoitochka.ru",
+            "keyword:detmir.ru",
+            "keyword:pay.yandex.ru",
+            "keyword:kinopoisk.ru",
+            "keyword:gismeteo.ru",
+            "keyword:rzd.ru",
+            "keyword:5ka.ru",
+            "keyword:okko.tv",
+            "keyword:emias.info",
+            "keyword:ivi.ru",
+            "keyword:vk.com",
+            "keyword:vk.ru",
+            "keyword:perekrestok.ru",
+            "keyword:wildberries.ru",
+            "keyword:samokat.ru",
+            "keyword:alfabank.ru",
+            "keyword:vtb.ru",
+            "keyword:gazprombank.ru",
+            "keyword:xn--b1afabzvcegckfhg.xn--p1ai",
+            "keyword:mos.ru",
+            "keyword:blinkmap",
+            "keyword:max.ru",
+            "keyword:vk-analytics.ru",
+            "keyword:oneme.ru",
+            "keyword:okcdn.ru",
+            "keyword:trace-flow.ru",
+            "keyword:mycdn.me",
+            "keyword:apptracer.ru",
+            "keyword:kuper.ru",
+            "keyword:megamarket.ru",
+            "keyword:pochta.ru",
+            "keyword:citydrive",
+            "keyword:delimobil",
+            "keyword:mskobr.ru",
+            "keyword:avito.ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
           "protocol": [
             "bittorrent"
           ],
@@ -12142,7 +12195,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "89.208.223.146",
+              "address": "89.208.222.3",
               "port": 443,
               "users": [
                 {
@@ -12214,7 +12267,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "89.208.223.146",
+              "address": "89.208.222.3",
               "port": 443,
               "users": [
                 {
@@ -12276,6 +12329,59 @@
     },
     "routing": {
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "keyword:kinopoisk.ru",
+            "keyword:rutube.ru",
+            "keyword:ozon.ru",
+            "keyword:av.ru",
+            "keyword:gosuslugi.ru",
+            "keyword:hh.ru",
+            "keyword:vkusvill.ru",
+            "keyword:go.yandex.ru",
+            "keyword:yandex",
+            "keyword:tutu.ru",
+            "keyword:2gis.ru",
+            "keyword:lavka.yandex.ru",
+            "keyword:vkusnoitochka.ru",
+            "keyword:detmir.ru",
+            "keyword:pay.yandex.ru",
+            "keyword:kinopoisk.ru",
+            "keyword:gismeteo.ru",
+            "keyword:rzd.ru",
+            "keyword:5ka.ru",
+            "keyword:okko.tv",
+            "keyword:emias.info",
+            "keyword:ivi.ru",
+            "keyword:vk.com",
+            "keyword:vk.ru",
+            "keyword:perekrestok.ru",
+            "keyword:wildberries.ru",
+            "keyword:samokat.ru",
+            "keyword:alfabank.ru",
+            "keyword:vtb.ru",
+            "keyword:gazprombank.ru",
+            "keyword:xn--b1afabzvcegckfhg.xn--p1ai",
+            "keyword:mos.ru",
+            "keyword:blinkmap",
+            "keyword:max.ru",
+            "keyword:vk-analytics.ru",
+            "keyword:oneme.ru",
+            "keyword:okcdn.ru",
+            "keyword:trace-flow.ru",
+            "keyword:mycdn.me",
+            "keyword:apptracer.ru",
+            "keyword:kuper.ru",
+            "keyword:megamarket.ru",
+            "keyword:pochta.ru",
+            "keyword:citydrive",
+            "keyword:delimobil",
+            "keyword:mskobr.ru",
+            "keyword:avito.ru"
+          ],
+          "outboundTag": "direct"
+        },
         {
           "type": "field",
           "protocol": [
@@ -13295,7 +13401,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "89.208.223.146",
+              "address": "89.208.222.3",
               "port": 443,
               "users": [
                 {
@@ -13951,7 +14057,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "burnblue.duckdns.org",
+              "address": "dseesse4.duckdns.org",
               "port": 8443,
               "users": [
                 {
@@ -13969,12 +14075,12 @@
             "path": "/vless",
             "host": "",
             "headers": {
-              "Host": "burnblue.duckdns.org"
+              "Host": "dseesse4.duckdns.org"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "burnblue.duckdns.org",
+            "serverName": "dseesse4.duckdns.org",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -22597,7 +22703,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.12",
+              "address": "194.55.239.24",
               "port": 443,
               "users": [
                 {
@@ -22642,7 +22748,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.13",
+              "address": "194.55.239.41",
               "port": 443,
               "users": [
                 {
@@ -22687,7 +22793,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.41",
+              "address": "194.55.239.13",
               "port": 443,
               "users": [
                 {
