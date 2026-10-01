@@ -742,7 +742,7 @@
         "settings": {
           "servers": [
             {
-              "address": "fr2.nngo.cc",
+              "address": "de6.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -757,7 +757,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "fr2.nngo.cc",
+            "serverName": "de6.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -1618,7 +1618,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl3.nnmm.me",
+              "address": "de3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -1633,7 +1633,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl3.nnmm.me",
+            "serverName": "de3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -2422,7 +2422,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de8.nngo.cc",
+              "address": "de.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2437,7 +2437,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de8.nngo.cc",
+            "serverName": "de.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -4135,7 +4135,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl3.nnmm.me",
+              "address": "de3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -4150,7 +4150,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl3.nnmm.me",
+            "serverName": "de3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10308,7 +10308,7 @@
         "settings": {
           "servers": [
             {
-              "address": "kz1.nnmm.me",
+              "address": "kz2.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10323,7 +10323,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "kz1.nnmm.me",
+            "serverName": "kz2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10531,7 +10531,7 @@
         "settings": {
           "servers": [
             {
-              "address": "uk2.nngo.cc",
+              "address": "fr2.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10546,7 +10546,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "uk2.nngo.cc",
+            "serverName": "fr2.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10567,7 +10567,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.207",
+              "address": "79.174.92.216",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10582,7 +10582,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10797,7 +10797,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z10.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10818,7 +10818,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.207",
+              "address": "79.174.92.216",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10833,7 +10833,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10999,7 +10999,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.207",
+              "address": "79.174.92.216",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11014,7 +11014,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11050,7 +11050,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11285,7 +11285,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.207",
+              "address": "79.174.92.216",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11300,7 +11300,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11500,7 +11500,7 @@
         "settings": {
           "servers": [
             {
-              "address": "188.225.27.117",
+              "address": "188.225.36.187",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11515,7 +11515,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -11536,7 +11536,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.207",
+              "address": "79.174.92.216",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11551,7 +11551,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12070,7 +12070,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "imtiredboss.net",
+              "address": "freshverdict.net",
               "port": 443,
               "users": [
                 {
@@ -12088,12 +12088,12 @@
             "path": "/api/v1/stream",
             "host": "",
             "headers": {
-              "Host": "imtiredboss.net"
+              "Host": "freshverdict.net"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "imtiredboss.net",
+            "serverName": "freshverdict.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -13131,7 +13131,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "imtiredboss.net",
+              "address": "freshverdict.net",
               "port": 443,
               "users": [
                 {
@@ -13149,12 +13149,12 @@
             "path": "/api/v1/stream",
             "host": "",
             "headers": {
-              "Host": "imtiredboss.net"
+              "Host": "freshverdict.net"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "imtiredboss.net",
+            "serverName": "freshverdict.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -22597,7 +22597,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.13",
+              "address": "194.55.239.12",
               "port": 443,
               "users": [
                 {
@@ -22642,7 +22642,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.46",
+              "address": "194.55.239.13",
               "port": 443,
               "users": [
                 {
@@ -22687,7 +22687,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.20",
+              "address": "194.55.239.41",
               "port": 443,
               "users": [
                 {
