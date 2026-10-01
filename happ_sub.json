@@ -742,7 +742,7 @@
         "settings": {
           "servers": [
             {
-              "address": "ee2.nnmm.me",
+              "address": "fr2.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -757,7 +757,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "ee2.nnmm.me",
+            "serverName": "fr2.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -1618,7 +1618,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl3.nnmm.me",
+              "address": "de3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -1633,7 +1633,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl3.nnmm.me",
+            "serverName": "de3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -2422,7 +2422,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de6.nngo.cc",
+              "address": "de8.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2437,7 +2437,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de6.nngo.cc",
+            "serverName": "de8.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -4135,7 +4135,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl3.nnmm.me",
+              "address": "de3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -4150,7 +4150,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl3.nnmm.me",
+            "serverName": "de3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10308,7 +10308,7 @@
         "settings": {
           "servers": [
             {
-              "address": "kz2.nnmm.me",
+              "address": "kz1.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10323,7 +10323,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "kz2.nnmm.me",
+            "serverName": "kz1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10531,7 +10531,7 @@
         "settings": {
           "servers": [
             {
-              "address": "uk2.nngo.cc",
+              "address": "fr2.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10546,7 +10546,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "uk2.nngo.cc",
+            "serverName": "fr2.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10567,7 +10567,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.207",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10582,7 +10582,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10797,7 +10797,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z9.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10818,7 +10818,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.207",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10833,7 +10833,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10999,7 +10999,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.207",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11014,7 +11014,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11050,7 +11050,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z7.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11285,7 +11285,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.207",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11300,7 +11300,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11500,7 +11500,7 @@
         "settings": {
           "servers": [
             {
-              "address": "188.225.27.117",
+              "address": "188.225.37.201",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11515,7 +11515,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z9.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -11536,7 +11536,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.33",
+              "address": "95.163.232.207",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11551,7 +11551,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -17314,64 +17314,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "patriot3.timikillergames.online",
-              "port": 443,
-              "users": [
-                {
-                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "tcpSettings": {},
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
-            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
-            "fingerprint": "firefox"
-          }
-        }
-      },
-      {
-        "tag": "proxy-4",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "patriot4.timikillergames.online",
-              "port": 443,
-              "users": [
-                {
-                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "tcpSettings": {},
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
-            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
-            "fingerprint": "firefox"
-          }
-        }
-      },
-      {
-        "tag": "proxy-5",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "patriot6.timikillergames.online",
               "port": 443,
               "users": [
@@ -17998,64 +17940,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "patriot3.timikillergames.online",
-              "port": 443,
-              "users": [
-                {
-                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "tcpSettings": {},
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
-            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
-            "fingerprint": "firefox"
-          }
-        }
-      },
-      {
-        "tag": "proxy-4",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "patriot4.timikillergames.online",
-              "port": 443,
-              "users": [
-                {
-                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "tcpSettings": {},
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
-            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
-            "fingerprint": "firefox"
-          }
-        }
-      },
-      {
-        "tag": "proxy-5",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "patriot6.timikillergames.online",
               "port": 443,
               "users": [
@@ -18650,72 +18534,6 @@
       },
       {
         "tag": "proxy-2",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "patriot3.timikillergames.online",
-              "port": 8443,
-              "users": [
-                {
-                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
-                  "encryption": "none",
-                  "flow": ""
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "grpcSettings": {
-            "serviceName": null,
-            "authority": "",
-            "mode": false
-          },
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
-            "publicKey": "ZYCjHvxGdkwCEkmH8i6VaEOa3GNexoTn0VS_7vt2S2I",
-            "fingerprint": "firefox"
-          }
-        }
-      },
-      {
-        "tag": "proxy-3",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "patriot4.timikillergames.online",
-              "port": 8443,
-              "users": [
-                {
-                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
-                  "encryption": "none",
-                  "flow": ""
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "grpcSettings": {
-            "serviceName": null,
-            "authority": "",
-            "mode": false
-          },
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
-            "publicKey": "ZYCjHvxGdkwCEkmH8i6VaEOa3GNexoTn0VS_7vt2S2I",
-            "fingerprint": "firefox"
-          }
-        }
-      },
-      {
-        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -22779,7 +22597,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.16",
+              "address": "194.55.239.9",
               "port": 443,
               "users": [
                 {
@@ -22824,7 +22642,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.41",
+              "address": "194.55.239.17",
               "port": 443,
               "users": [
                 {
@@ -22869,7 +22687,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.25",
+              "address": "194.55.239.20",
               "port": 443,
               "users": [
                 {
@@ -26057,6 +25875,27 @@
             "domain:xmail.ru"
           ],
           "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "Super_Balancer"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "Super_Balancer",
+          "selector": [
+            "proxy"
+          ],
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "2500ms",
+              "expected": 2,
+              "tolerance": 0.11
+            }
+          }
         }
       ],
       "domainMatcher": "hybrid",
@@ -26152,6 +25991,19 @@
         "protocol": "blackhole"
       }
     ],
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "5s",
+        "interval": "30s",
+        "sampling": 3,
+        "httpMethod": "HEAD",
+        "destination": "https://www.gstatic.com/generate_204",
+        "connectivity": "http://connectivitycheck.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "proxy"
+      ]
+    },
     "remarks": "[J4] 🇦🇹 LTE | Австрия | µTorrent",
     "meta": {
       "serverDescription": "Lite"
