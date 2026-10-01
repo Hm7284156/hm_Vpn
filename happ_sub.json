@@ -742,7 +742,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de7.nnmm.me",
+              "address": "ee1.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -757,7 +757,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de7.nnmm.me",
+            "serverName": "ee1.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -1618,7 +1618,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl3.nnmm.me",
+              "address": "de3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -1633,7 +1633,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl3.nnmm.me",
+            "serverName": "de3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -2422,7 +2422,7 @@
         "settings": {
           "servers": [
             {
-              "address": "de1.nngo.cc",
+              "address": "de.nngo.cc",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -2437,7 +2437,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "de1.nngo.cc",
+            "serverName": "de.nngo.cc",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -4135,7 +4135,7 @@
         "settings": {
           "servers": [
             {
-              "address": "nl3.nnmm.me",
+              "address": "de3.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -4150,7 +4150,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "nl3.nnmm.me",
+            "serverName": "de3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10567,7 +10567,7 @@
         "settings": {
           "servers": [
             {
-              "address": "79.174.92.216",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10582,7 +10582,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z6.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10797,7 +10797,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z3.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10818,7 +10818,7 @@
         "settings": {
           "servers": [
             {
-              "address": "79.174.92.216",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -10833,7 +10833,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z6.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -10999,7 +10999,7 @@
         "settings": {
           "servers": [
             {
-              "address": "79.174.92.216",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11014,7 +11014,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z6.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11050,7 +11050,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11264,7 +11264,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z6.nnmm.me",
+            "serverName": "z.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -11285,7 +11285,7 @@
         "settings": {
           "servers": [
             {
-              "address": "79.174.92.216",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11300,7 +11300,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z6.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11500,7 +11500,7 @@
         "settings": {
           "servers": [
             {
-              "address": "188.225.34.31",
+              "address": "188.225.44.63",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11515,7 +11515,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z8.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -11536,7 +11536,7 @@
         "settings": {
           "servers": [
             {
-              "address": "79.174.92.216",
+              "address": "95.163.232.166",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11551,7 +11551,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z6.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11773,6 +11773,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -12159,7 +12163,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "fitstory.net",
+              "address": "risekitchen.net",
               "port": 443,
               "users": [
                 {
@@ -12177,12 +12181,12 @@
             "path": "/notvlessklyanus",
             "host": "",
             "headers": {
-              "Host": "fitstory.net"
+              "Host": "risekitchen.net"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "fitstory.net",
+            "serverName": "risekitchen.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -12195,7 +12199,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "89.208.222.3",
+              "address": "certainfate.net",
               "port": 443,
               "users": [
                 {
@@ -12211,14 +12215,14 @@
           "network": "ws",
           "wsSettings": {
             "path": "/notvlessklyanus",
-            "host": "",
+            "host": "certainfate.net",
             "headers": {
-              "Host": "badfuel.net"
+              "Host": "certainfate.net"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "badfuel.net",
+            "serverName": "certainfate.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -12231,7 +12235,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "sharkproposal.net",
+              "address": "violationleg.net",
               "port": 443,
               "users": [
                 {
@@ -12246,51 +12250,15 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "path": "/notvlessklyanus",
-            "host": "sharkproposal.net",
-            "headers": {
-              "Host": "sharkproposal.net"
-            }
-          },
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "sharkproposal.net",
-            "enableSessionResumption": false,
-            "fingerprint": "firefox",
-            "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-        }
-      },
-      {
-        "tag": "proxy-6",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "89.208.222.3",
-              "port": 443,
-              "users": [
-                {
-                  "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
-                  "encryption": "none",
-                  "flow": ""
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "ws",
-          "wsSettings": {
-            "path": "/notvlessklyanus",
+            "path": "/vless",
             "host": "",
             "headers": {
-              "Host": "badfuel.net"
+              "Host": "violationleg.net"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "badfuel.net",
+            "serverName": "violationleg.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -12332,6 +12300,9 @@
         {
           "type": "field",
           "domain": [
+            "keyword:furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -12809,6 +12780,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -12966,6 +12941,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -13130,6 +13109,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -13294,6 +13277,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -13401,7 +13388,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "89.208.222.3",
+              "address": "violationleg.net",
               "port": 443,
               "users": [
                 {
@@ -13416,15 +13403,15 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "path": "/notvlessklyanus",
+            "path": "/vless",
             "host": "",
             "headers": {
-              "Host": "badfuel.net"
+              "Host": "violationleg.net"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "badfuel.net",
+            "serverName": "violationleg.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -13440,7 +13427,7 @@
         "protocol": "blackhole"
       }
     ],
-    "remarks": "[J2] 🇩🇪 Германия ⚡🤖🎮"
+    "remarks": "[J2] 🇵🇱 Польша ⚡🤖📺🎮"
   },
   {
     "dns": {
@@ -13458,6 +13445,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -13565,7 +13556,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "fitstory.net",
+              "address": "risekitchen.net",
               "port": 443,
               "users": [
                 {
@@ -13583,12 +13574,12 @@
             "path": "/notvlessklyanus",
             "host": "",
             "headers": {
-              "Host": "fitstory.net"
+              "Host": "risekitchen.net"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "fitstory.net",
+            "serverName": "risekitchen.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -13622,6 +13613,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -13729,7 +13724,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "sharkproposal.net",
+              "address": "certainfate.net",
               "port": 443,
               "users": [
                 {
@@ -13745,14 +13740,14 @@
           "network": "ws",
           "wsSettings": {
             "path": "/notvlessklyanus",
-            "host": "sharkproposal.net",
+            "host": "certainfate.net",
             "headers": {
-              "Host": "sharkproposal.net"
+              "Host": "certainfate.net"
             }
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "sharkproposal.net",
+            "serverName": "certainfate.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "cipherSuites": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -13786,6 +13781,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -13950,6 +13949,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -14114,6 +14117,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -14278,6 +14285,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -14442,6 +14453,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -14599,6 +14614,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -14774,6 +14793,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -14949,6 +14972,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -15124,6 +15151,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -15299,6 +15330,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -15474,6 +15509,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -15649,6 +15688,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -15824,6 +15867,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -15999,6 +16046,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -16174,6 +16225,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -16349,6 +16404,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -16524,6 +16583,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -16699,6 +16762,10 @@
         {
           "type": "field",
           "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
             "keyword:kinopoisk.ru",
             "keyword:rutube.ru",
             "keyword:ozon.ru",
@@ -17310,13 +17377,24 @@
             "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "costs": [],
+              "maxRTT": "1000ms",
+              "expected": 2,
+              "baselines": [
+                "50ms",
+                "100ms",
+                "200ms"
+              ],
+              "tolerance": 0.2
+            }
           },
-          "fallbackTag": "block"
+          "fallbackTag": "proxy"
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -17407,15 +17485,45 @@
         "streamSettings": {
           "network": "tcp",
           "tcpSettings": {},
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "basedgod.life",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "patriot5.timikillergames.online",
+            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
             "fingerprint": "chrome"
           }
         }
       },
       {
         "tag": "proxy-3",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "patriot5.timikillergames.online",
+              "port": 443,
+              "users": [
+                {
+                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "tcpSettings": {},
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "patriot5.timikillergames.online",
+            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -17437,7 +17545,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
+            "serverName": "patriot5.timikillergames.online",
             "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
             "fingerprint": "firefox"
           }
@@ -17455,10 +17563,10 @@
     "burstObservatory": {
       "pingConfig": {
         "timeout": "2s",
-        "interval": "1m",
-        "sampling": 2,
-        "destination": "http://www.gstatic.com/generate_204",
-        "connectivity": ""
+        "interval": "30s",
+        "sampling": 3,
+        "destination": "http://cp.cloudflare.com/generate_204",
+        "connectivity": "http://connectivitycheck.platform.hicloud.com/generate_204"
       },
       "subjectSelector": [
         "proxy"
@@ -17936,13 +18044,24 @@
             "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "costs": [],
+              "maxRTT": "1000ms",
+              "expected": 2,
+              "baselines": [
+                "50ms",
+                "100ms",
+                "200ms"
+              ],
+              "tolerance": 0.2
+            }
           },
-          "fallbackTag": "block"
+          "fallbackTag": "proxy"
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -18033,15 +18152,45 @@
         "streamSettings": {
           "network": "tcp",
           "tcpSettings": {},
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "basedgod.life",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "patriot5.timikillergames.online",
+            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
             "fingerprint": "chrome"
           }
         }
       },
       {
         "tag": "proxy-3",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "patriot5.timikillergames.online",
+              "port": 443,
+              "users": [
+                {
+                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "tcpSettings": {},
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "patriot5.timikillergames.online",
+            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -18063,7 +18212,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
+            "serverName": "patriot5.timikillergames.online",
             "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
             "fingerprint": "firefox"
           }
@@ -18081,10 +18230,10 @@
     "burstObservatory": {
       "pingConfig": {
         "timeout": "2s",
-        "interval": "1m",
-        "sampling": 2,
-        "destination": "http://www.gstatic.com/generate_204",
-        "connectivity": ""
+        "interval": "30s",
+        "sampling": 3,
+        "destination": "http://cp.cloudflare.com/generate_204",
+        "connectivity": "http://connectivitycheck.platform.hicloud.com/generate_204"
       },
       "subjectSelector": [
         "proxy"
@@ -18562,13 +18711,24 @@
             "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "costs": [],
+              "maxRTT": "1000ms",
+              "expected": 2,
+              "baselines": [
+                "50ms",
+                "100ms",
+                "200ms"
+              ],
+              "tolerance": 0.2
+            }
           },
-          "fallbackTag": "block"
+          "fallbackTag": "proxy"
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -18631,15 +18791,49 @@
         "streamSettings": {
           "network": "tcp",
           "tcpSettings": {},
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "basedgod.life",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "patriot5.timikillergames.online",
+            "publicKey": "jdI2QOHLEs3ilv7BHonO6sT0RuqfqcJD5Ol_DIEGxhM",
             "fingerprint": "chrome"
           }
         }
       },
       {
         "tag": "proxy-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "patriot5.timikillergames.online",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "27906ed9-cc48-4abe-9dec-82e6e2e259e5",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "grpcSettings": {
+            "serviceName": null,
+            "authority": "",
+            "mode": false
+          },
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "patriot5.timikillergames.online",
+            "publicKey": "ZYCjHvxGdkwCEkmH8i6VaEOa3GNexoTn0VS_7vt2S2I",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "proxy-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -18665,7 +18859,7 @@
           },
           "security": "reality",
           "realitySettings": {
-            "serverName": "patriot3.timikillergames.online",
+            "serverName": "patriot5.timikillergames.online",
             "publicKey": "ZYCjHvxGdkwCEkmH8i6VaEOa3GNexoTn0VS_7vt2S2I",
             "fingerprint": "firefox"
           }
@@ -18683,10 +18877,10 @@
     "burstObservatory": {
       "pingConfig": {
         "timeout": "2s",
-        "interval": "1m",
-        "sampling": 2,
-        "destination": "http://www.gstatic.com/generate_204",
-        "connectivity": ""
+        "interval": "30s",
+        "sampling": 3,
+        "destination": "http://cp.cloudflare.com/generate_204",
+        "connectivity": "http://connectivitycheck.platform.hicloud.com/generate_204"
       },
       "subjectSelector": [
         "proxy"
@@ -22703,7 +22897,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.24",
+              "address": "194.55.239.12",
               "port": 443,
               "users": [
                 {
@@ -22748,7 +22942,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.41",
+              "address": "194.55.239.16",
               "port": 443,
               "users": [
                 {
@@ -22793,7 +22987,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "194.55.239.13",
+              "address": "194.55.239.9",
               "port": 443,
               "users": [
                 {
