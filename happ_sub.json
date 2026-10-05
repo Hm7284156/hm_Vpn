@@ -748,7 +748,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "uk2.nngo.cc",
+              "address": "de8.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -765,7 +765,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "uk2.nngo.cc",
+            "serverName": "de8.nngo.cc",
             "publicKey": "XezrNtYW1-F4lf6cM9J6fZ3jD4xHV-qKKOFh6mytb0E",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "chrome"
@@ -4354,7 +4354,7 @@
         "settings": {
           "servers": [
             {
-              "address": "sw1.nnmm.me",
+              "address": "sw.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -4365,7 +4365,7 @@
           "tcpSettings": {},
           "security": "tls",
           "tlsSettings": {
-            "serverName": "sw1.nnmm.me",
+            "serverName": "sw.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11796,7 +11796,7 @@
         "settings": {
           "servers": [
             {
-              "address": "kz2.nnmm.me",
+              "address": "kz1.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11811,7 +11811,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "kz2.nnmm.me",
+            "serverName": "kz1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12103,7 +12103,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12318,7 +12318,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z8.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12371,7 +12371,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12552,7 +12552,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12588,7 +12588,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12819,7 +12819,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -12872,7 +12872,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -13661,7 +13661,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "188.225.24.82",
+              "address": "188.225.27.117",
               "port": 443,
               "users": [
                 {
@@ -13678,7 +13678,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -13737,7 +13737,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -14957,7 +14957,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "9micenasralnakover.net",
+              "address": "kaoangeltrahnimenya.net",
               "port": 2053,
               "users": [
                 {
@@ -14973,7 +14973,7 @@
           "network": "xhttp",
           "xhttpSettings": {
             "mode": "auto",
-            "host": "9micenasralnakover.net",
+            "host": "kaoangeltrahnimenya.net",
             "path": "/api/v1/upload",
             "extra": {
               "xmux": {
@@ -14988,7 +14988,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "9micenasralnakover.net",
+            "serverName": "kaoangeltrahnimenya.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -17644,7 +17644,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "9micenasralnakover.net",
+              "address": "kaoangeltrahnimenya.net",
               "port": 2053,
               "users": [
                 {
@@ -17660,7 +17660,7 @@
           "network": "xhttp",
           "xhttpSettings": {
             "mode": "auto",
-            "host": "9micenasralnakover.net",
+            "host": "kaoangeltrahnimenya.net",
             "path": "/api/v1/upload",
             "extra": {
               "xmux": {
@@ -17675,7 +17675,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "9micenasralnakover.net",
+            "serverName": "kaoangeltrahnimenya.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -18360,7 +18360,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "9micenasralnakover.net",
+              "address": "kaoangeltrahnimenya.net",
               "port": 8443,
               "users": [
                 {
@@ -18376,7 +18376,7 @@
           "network": "xhttp",
           "xhttpSettings": {
             "mode": "auto",
-            "host": "9micenasralnakover.net",
+            "host": "kaoangeltrahnimenya.net",
             "path": "/api/v1/upload",
             "extra": {
               "xmux": {
@@ -18391,7 +18391,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "9micenasralnakover.net",
+            "serverName": "kaoangeltrahnimenya.net",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -18948,167 +18948,6 @@
       }
     ],
     "remarks": "[J2] 🇪🇺🦝 Все операторы"
-  },
-  {
-    "dns": {
-      "servers": [
-        "77.88.8.8",
-        "1.1.1.1",
-        "1.0.0.1",
-        "8.8.8.8",
-        "8.8.4.4"
-      ],
-      "queryStrategy": "UseIP"
-    },
-    "routing": {
-      "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "keyword:sub.furkvpn",
-            "keyword:mobile.furkvpn",
-            "keyword:furkconnection",
-            "keyword:furkapp",
-            "keyword:kinopoisk.ru",
-            "keyword:rutube.ru",
-            "keyword:ozon.ru",
-            "keyword:av.ru",
-            "keyword:gosuslugi.ru",
-            "keyword:hh.ru",
-            "keyword:vkusvill.ru",
-            "keyword:go.yandex.ru",
-            "keyword:yandex",
-            "keyword:tutu.ru",
-            "keyword:2gis.ru",
-            "keyword:lavka.yandex.ru",
-            "keyword:vkusnoitochka.ru",
-            "keyword:detmir.ru",
-            "keyword:pay.yandex.ru",
-            "keyword:kinopoisk.ru",
-            "keyword:gismeteo.ru",
-            "keyword:rzd.ru",
-            "keyword:5ka.ru",
-            "keyword:okko.tv",
-            "keyword:emias.info",
-            "keyword:ivi.ru",
-            "keyword:vk.com",
-            "keyword:vk.ru",
-            "keyword:perekrestok.ru",
-            "keyword:wildberries.ru",
-            "keyword:samokat.ru",
-            "keyword:alfabank.ru",
-            "keyword:vtb.ru",
-            "keyword:gazprombank.ru",
-            "keyword:xn--b1afabzvcegckfhg.xn--p1ai",
-            "keyword:mos.ru",
-            "keyword:blinkmap",
-            "keyword:max.ru",
-            "keyword:vk-analytics.ru",
-            "keyword:oneme.ru",
-            "keyword:okcdn.ru",
-            "keyword:trace-flow.ru",
-            "keyword:mycdn.me",
-            "keyword:apptracer.ru",
-            "keyword:kuper.ru",
-            "keyword:megamarket.ru",
-            "keyword:pochta.ru",
-            "keyword:citydrive",
-            "keyword:delimobil",
-            "keyword:mskobr.ru",
-            "keyword:avito.ru"
-          ],
-          "outboundTag": "direct"
-        },
-        {
-          "type": "field",
-          "protocol": [
-            "bittorrent"
-          ],
-          "outboundTag": "direct"
-        }
-      ],
-      "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
-    },
-    "inbounds": [
-      {
-        "tag": "socks",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true,
-          "auth": "noauth"
-        },
-        "sniffing": {
-          "enabled": true,
-          "routeOnly": false,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        }
-      },
-      {
-        "tag": "http",
-        "port": 10809,
-        "listen": "127.0.0.1",
-        "protocol": "http",
-        "settings": {
-          "allowTransparent": false
-        },
-        "sniffing": {
-          "enabled": true,
-          "routeOnly": false,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "185.141.227.178",
-              "port": 443,
-              "users": [
-                {
-                  "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "tcpSettings": {},
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "rutube.ru",
-            "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-            "fingerprint": "firefox"
-          }
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      },
-      {
-        "tag": "block",
-        "protocol": "blackhole"
-      }
-    ],
-    "remarks": "[J2] 🇷🇺🍏 Все операторы"
   },
   {
     "dns": {
