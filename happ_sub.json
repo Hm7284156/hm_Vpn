@@ -748,7 +748,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "de.nngo.cc",
+              "address": "fr2.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -765,7 +765,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de.nngo.cc",
+            "serverName": "fr2.nngo.cc",
             "publicKey": "XezrNtYW1-F4lf6cM9J6fZ3jD4xHV-qKKOFh6mytb0E",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "chrome"
@@ -3492,7 +3492,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nl2.nngo.cc",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -3509,7 +3509,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "nl2.nngo.cc",
+            "serverName": "nl3.nngo.cc",
             "publicKey": "XezrNtYW1-F4lf6cM9J6fZ3jD4xHV-qKKOFh6mytb0E",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -12088,7 +12088,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.199",
+              "address": "95.163.232.88",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -12103,7 +12103,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12318,7 +12318,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12356,7 +12356,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.199",
+              "address": "95.163.232.88",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -12371,7 +12371,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12537,7 +12537,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.199",
+              "address": "95.163.232.88",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -12552,7 +12552,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12588,7 +12588,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z6.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -12819,7 +12819,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "qq",
             "alpn": [
@@ -12857,7 +12857,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.199",
+              "address": "95.163.232.88",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -12872,7 +12872,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -13678,7 +13678,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z3.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -13722,7 +13722,7 @@
         "settings": {
           "servers": [
             {
-              "address": "95.163.232.199",
+              "address": "95.163.232.88",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -13737,7 +13737,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z5.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -19671,7 +19671,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇩🇪 VPN | Германия",
+    "remarks": "[J3] 🇩🇪 VPN | Германия",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -19967,7 +19967,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇳🇱 VPN | Нидерланды",
+    "remarks": "[J3] 🇳🇱 VPN | Нидерланды",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -20173,7 +20173,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇫🇷 VPN | Франция",
+    "remarks": "[J3] 🇫🇷 VPN | Франция",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -20514,7 +20514,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇧🇾 VPN | Беларусь | µTorrent",
+    "remarks": "[J3] 🇧🇾 VPN | Беларусь | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -20720,7 +20720,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇵🇱 VPN | Польша | µTorrent",
+    "remarks": "[J3] 🇵🇱 VPN | Польша | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -20926,7 +20926,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇺🇸 VPN | США | µTorrent",
+    "remarks": "[J3] 🇺🇸 VPN | США | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -21177,7 +21177,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇰🇿 VPN | Казахстан | µTorrent",
+    "remarks": "[J3] 🇰🇿 VPN | Казахстан | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -21304,7 +21304,7 @@
         "protocol": "blackhole"
       }
     ],
-    "remarks": "[J4] 🇦🇹 VPN | Австрия | µTorrent",
+    "remarks": "[J3] 🇦🇹 VPN | Австрия | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -21510,7 +21510,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇪🇸 VPN | Испания | µTorrent",
+    "remarks": "[J3] 🇪🇸 VPN | Испания | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -21671,7 +21671,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇯🇵 VPN | Япония | µTorrent",
+    "remarks": "[J3] 🇯🇵 VPN | Япония | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -21798,7 +21798,7 @@
         "protocol": "blackhole"
       }
     ],
-    "remarks": "[J4] 🇬🇧 VPN | Британия | µTorrent",
+    "remarks": "[J3] 🇬🇧 VPN | Британия | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -21959,7 +21959,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4]  🇨🇦 VPN | Канада | µTorrent",
+    "remarks": "[J3]  🇨🇦 VPN | Канада | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -22165,7 +22165,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇪🇪 VPN | Эстония",
+    "remarks": "[J3] 🇪🇪 VPN | Эстония",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -22326,7 +22326,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇷🇺 VPN | Россия | No Ads | µTorrent",
+    "remarks": "[J3] 🇷🇺 VPN | Россия | No Ads | µTorrent",
     "meta": {
       "serverDescription": "VPN"
     }
@@ -23072,7 +23072,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇷🇺 LTE | Все операторы | µTorrent",
+    "remarks": "[J3] 🇷🇺 LTE | Все операторы | µTorrent",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -23428,7 +23428,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇷🇺 LTE | Все операторы-2",
+    "remarks": "[J3] 🇷🇺 LTE | Все операторы-2",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -24064,7 +24064,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇷🇺 LTE | Все операторы-3",
+    "remarks": "[J3] 🇷🇺 LTE | Все операторы-3",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -24584,7 +24584,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇷🇺 LTE | Резервный",
+    "remarks": "[J3] 🇷🇺 LTE | Резервный",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -25195,7 +25195,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇷🇺 LTE | Игровой",
+    "remarks": "[J3] 🇷🇺 LTE | Игровой",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -25626,7 +25626,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇫🇷 LTE | Франция",
+    "remarks": "[J3] 🇫🇷 LTE | Франция",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -25967,7 +25967,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇳🇱 LTE | Нидерланды",
+    "remarks": "[J3] 🇳🇱 LTE | Нидерланды",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -26263,7 +26263,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇬🇧 LTE | Британия | µTorrent",
+    "remarks": "[J3] 🇬🇧 LTE | Британия | µTorrent",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -26514,7 +26514,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇦🇹 LTE | Австрия | µTorrent",
+    "remarks": "[J3] 🇦🇹 LTE | Австрия | µTorrent",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -26810,7 +26810,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇵🇱 LTE | Польша | µTorrent",
+    "remarks": "[J3] 🇵🇱 LTE | Польша | µTorrent",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -27061,7 +27061,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇺🇸 LTE | США | µTorrent",
+    "remarks": "[J3] 🇺🇸 LTE | США | µTorrent",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -27312,7 +27312,7 @@
         "proxy"
       ]
     },
-    "remarks": "[J4] 🇧🇾 LTE | Беларусь | µTorrent",
+    "remarks": "[J3] 🇧🇾 LTE | Беларусь | µTorrent",
     "meta": {
       "serverDescription": "Lite"
     }
@@ -27529,7 +27529,7 @@
         "protocol": "blackhole"
       }
     ],
-    "remarks": "[J4] 🇨🇦 LTE | Канада | µTorrent",
+    "remarks": "[J3] 🇨🇦 LTE | Канада | µTorrent",
     "meta": {
       "serverDescription": "Lite"
     }
