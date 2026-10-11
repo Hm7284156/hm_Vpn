@@ -99,10 +99,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -760,7 +762,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "de2.nntoot.com",
+              "address": "de5.nntoot.com",
               "port": 443,
               "users": [
                 {
@@ -777,7 +779,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de2.nntoot.com",
+            "serverName": "de5.nntoot.com",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -951,10 +953,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -1795,10 +1799,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -2639,10 +2645,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -3476,10 +3484,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -4328,10 +4338,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -5172,10 +5184,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -6009,10 +6023,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -7016,10 +7032,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -7865,10 +7883,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -8888,10 +8908,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -9738,10 +9760,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -10588,10 +10612,12 @@
           "type": "field",
           "domain": [
             "full:tgnn.live",
+            "full:nnmgo.com",
             "full:nngo.cc",
             "full:nnmm.me",
             "domain:nn-id.com",
             "domain:wata.pro",
+            "domain:kassa.ai",
             "domain:ru",
             "domain:su",
             "domain:xn--p1ai",
@@ -11241,7 +11267,7 @@
         "settings": {
           "servers": [
             {
-              "address": "kz1.nnmm.me",
+              "address": "kz2.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -11256,7 +11282,7 @@
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "kz1.nnmm.me",
+            "serverName": "kz2.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -11464,7 +11490,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nl1.nnmm.me",
+              "address": "fr2.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -11481,7 +11507,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "nl1.nnmm.me",
+            "serverName": "fr2.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -11494,7 +11520,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.216",
               "port": 443,
               "users": [
                 {
@@ -11511,7 +11537,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -11733,7 +11759,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.216",
               "port": 443,
               "users": [
                 {
@@ -11750,7 +11776,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -11780,7 +11806,7 @@
         "Fall"
       ]
     },
-    "remarks": "[J1] 🇪🇺Обход⁴ (МТС, Т-моб)"
+    "remarks": "[J1] 🇪🇺Обход² (МТС, Т-моб)"
   },
   {
     "dns": {
@@ -11908,7 +11934,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.216",
               "port": 443,
               "users": [
                 {
@@ -11925,7 +11951,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -11955,7 +11981,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z9.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -12739,7 +12765,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "188.225.36.187",
+              "address": "188.225.77.239",
               "port": 443,
               "users": [
                 {
@@ -12756,7 +12782,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z.nnmm.me",
+            "serverName": "z9.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -12769,7 +12795,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.88",
+              "address": "79.174.92.216",
               "port": 443,
               "users": [
                 {
@@ -12786,7 +12812,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -12822,7 +12848,7 @@
         "Auto1"
       ]
     },
-    "remarks": "[J1] 🇪🇺 Обход⁵ 🐌🐌"
+    "remarks": "[J1] 🇪🇺 Обход⁴ 🐌🐌"
   },
   {
     "dns": {
@@ -12988,7 +13014,7 @@
         "protocol": "blackhole"
       }
     ],
-    "remarks": "[J1] 🇷🇺 Обход⁶ 🐌🐌 (Резерв)"
+    "remarks": "[J1] 🇷🇺 Обход⁵ 🐌🐌 (Резерв)"
   },
   {
     "dns": {
