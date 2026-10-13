@@ -762,7 +762,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "de3.nngo.cc",
+              "address": "ee2.nnmm.me",
               "port": 443,
               "users": [
                 {
@@ -779,7 +779,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de3.nngo.cc",
+            "serverName": "ee2.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -1644,7 +1644,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "de3.nngo.cc",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -1661,7 +1661,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de3.nngo.cc",
+            "serverName": "nl3.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -2454,7 +2454,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "de1.nngo.cc",
+              "address": "de6.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -2471,7 +2471,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de1.nngo.cc",
+            "serverName": "de6.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -3300,7 +3300,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nl3.nngo.cc",
+              "address": "nl2.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -3317,7 +3317,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "nl3.nngo.cc",
+            "serverName": "nl2.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -4183,7 +4183,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "de3.nngo.cc",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -4200,7 +4200,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de3.nngo.cc",
+            "serverName": "nl3.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -5857,8 +5857,8 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "pl2.nngo.cc",
-            "publicKey": "vioMef--xOwb1hZZI0XH31g8DXI-vVfJkkHtOsqQ-SE",
-            "shortId": "d90d3ccf13eb1cfe",
+            "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
+            "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
           }
         }
@@ -7687,7 +7687,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "tu1.tgnn.live",
+              "address": "tu2.nnmm.me",
               "port": 443,
               "users": [
                 {
@@ -7704,16 +7704,11 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "tu1.tgnn.live",
-            "publicKey": "QuRNn_QNDldKyGhJ6zKZ2OYRItFsw3pn0_39m-1uHis",
-            "shortId": "1a47313c3b9cce19",
+            "serverName": "tu2.nnmm.me",
+            "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
+            "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
           }
-        },
-        "mux": {
-          "enabled": false,
-          "concurrency": -1,
-          "xudpConcurrency": -1
         }
       },
       {
@@ -11490,7 +11485,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "fr2.nngo.cc",
+              "address": "nl1.nnmm.me",
               "port": 443,
               "users": [
                 {
@@ -11507,7 +11502,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "fr2.nngo.cc",
+            "serverName": "nl1.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -11520,7 +11515,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "79.174.92.98",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -11537,7 +11532,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -11746,7 +11741,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z7.nnmm.me",
+            "serverName": "z10.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -11759,7 +11754,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "79.174.92.98",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -11776,7 +11771,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -11934,7 +11929,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "79.174.92.98",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -11951,7 +11946,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -11964,7 +11959,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "91.185.83.63",
+              "address": "91.185.83.60",
               "port": 443,
               "users": [
                 {
@@ -11981,7 +11976,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -12782,7 +12777,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z6.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -12795,7 +12790,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "79.174.92.98",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -12812,7 +12807,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z8.nnmm.me",
+            "serverName": "z4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -13023,7 +13018,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -13093,7 +13088,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -13455,39 +13450,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "klitorneznayashtuchka.net",
-              "port": 443,
-              "users": [
-                {
-                  "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "tcpSettings": {},
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "klitorneznayashtuchka.net",
-            "enableSessionResumption": false,
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          }
-        }
-      },
-      {
-        "tag": "proxy-5",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "flatcrest.net",
               "port": 443,
               "users": [
@@ -13516,7 +13478,7 @@
         }
       },
       {
-        "tag": "proxy-6",
+        "tag": "proxy-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -13818,7 +13780,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -13888,7 +13850,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -15713,7 +15675,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -15783,7 +15745,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -15872,7 +15834,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -15942,7 +15904,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -16032,7 +15994,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -16102,7 +16064,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -16192,7 +16154,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -16262,7 +16224,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -16355,7 +16317,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -16425,170 +16387,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
-    },
-    "inbounds": [
-      {
-        "tag": "socks",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true,
-          "auth": "noauth"
-        },
-        "sniffing": {
-          "enabled": true,
-          "routeOnly": false,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        }
-      },
-      {
-        "tag": "http",
-        "port": 10809,
-        "listen": "127.0.0.1",
-        "protocol": "http",
-        "settings": {
-          "allowTransparent": false
-        },
-        "sniffing": {
-          "enabled": true,
-          "routeOnly": false,
-          "destOverride": [
-            "http",
-            "tls",
-            "quic"
-          ]
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "klitorneznayashtuchka.net",
-              "port": 443,
-              "users": [
-                {
-                  "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "tcpSettings": {},
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "klitorneznayashtuchka.net",
-            "enableSessionResumption": false,
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          }
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      },
-      {
-        "tag": "block",
-        "protocol": "blackhole"
-      }
-    ],
-    "remarks": "[J2] 🇵🇱 Польша ⚡🤖"
-  },
-  {
-    "dns": {
-      "servers": [
-        "8.8.8.8",
-        "1.1.1.1",
-        "77.88.8.8"
-      ],
-      "queryStrategy": "UseIP"
-    },
-    "routing": {
-      "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "keyword:sub.furkvpn",
-            "keyword:mobile.furkvpn",
-            "keyword:furkconnection",
-            "keyword:furkapp",
-            "keyword:kinopoisk.ru",
-            "keyword:rutube.ru",
-            "keyword:ozon.ru",
-            "keyword:av.ru",
-            "keyword:gosuslugi.ru",
-            "keyword:hh.ru",
-            "keyword:vkusvill.ru",
-            "keyword:go.yandex.ru",
-            "keyword:yandex",
-            "keyword:tutu.ru",
-            "keyword:2gis.ru",
-            "keyword:lavka.yandex.ru",
-            "keyword:vkusnoitochka.ru",
-            "keyword:detmir.ru",
-            "keyword:pay.yandex.ru",
-            "keyword:kinopoisk.ru",
-            "keyword:gismeteo.ru",
-            "keyword:rzd.ru",
-            "keyword:5ka.ru",
-            "keyword:okko.tv",
-            "keyword:emias.info",
-            "keyword:ivi.ru",
-            "keyword:vk.com",
-            "keyword:vk.ru",
-            "keyword:perekrestok.ru",
-            "keyword:wildberries.ru",
-            "keyword:samokat.ru",
-            "keyword:alfabank.ru",
-            "keyword:vtb.ru",
-            "keyword:gazprombank.ru",
-            "keyword:xn--b1afabzvcegckfhg.xn--p1ai",
-            "keyword:mos.ru",
-            "keyword:blinkmap",
-            "keyword:max.ru",
-            "keyword:vk-analytics.ru",
-            "keyword:oneme.ru",
-            "keyword:okcdn.ru",
-            "keyword:trace-flow.ru",
-            "keyword:mycdn.me",
-            "keyword:apptracer.ru",
-            "keyword:kuper.ru",
-            "keyword:megamarket.ru",
-            "keyword:pochta.ru",
-            "keyword:citydrive",
-            "keyword:delimobil",
-            "keyword:mskobr.ru",
-            "keyword:avito.ru"
-          ],
-          "outboundTag": "direct"
-        },
-        {
-          "type": "field",
-          "protocol": [
-            "bittorrent"
-          ],
-          "outboundTag": "direct"
-        }
-      ],
-      "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -16681,7 +16480,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -16751,7 +16550,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -16844,7 +16643,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -16914,7 +16713,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -17007,7 +16806,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -17077,7 +16876,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -17170,7 +16969,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -17240,7 +17039,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -17333,7 +17132,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -17403,7 +17202,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -17499,7 +17298,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -17569,7 +17368,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -17658,7 +17457,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -17728,7 +17527,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -17835,7 +17634,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -17905,7 +17704,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -18012,7 +17811,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -18082,7 +17881,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -18189,7 +17988,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -18259,7 +18058,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -18366,7 +18165,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -18436,7 +18235,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -18543,7 +18342,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -18613,7 +18412,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -18720,7 +18519,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -18790,7 +18589,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -18897,7 +18696,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -18967,7 +18766,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -19074,7 +18873,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -19144,7 +18943,352 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "wbmoll.top",
+              "port": 443,
+              "users": [
+                {
+                  "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "path": "/player/metrics/66d8ac14d43b/",
+            "host": "",
+            "headers": {
+              "Host": "wbmoll.top"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "wbmoll.top",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "remarks": "[J2] 🇷🇺🏝️ Все операторы (Крым)"
+  },
+  {
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "1.1.1.1",
+        "77.88.8.8"
+      ],
+      "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
+            "keyword:kinopoisk.ru",
+            "keyword:rutube.ru",
+            "keyword:ozon.ru",
+            "keyword:av.ru",
+            "keyword:gosuslugi.ru",
+            "keyword:hh.ru",
+            "keyword:vkusvill.ru",
+            "keyword:go.yandex.ru",
+            "keyword:yandex",
+            "keyword:tutu.ru",
+            "keyword:2gis.ru",
+            "keyword:lavka.yandex.ru",
+            "keyword:vkusnoitochka.ru",
+            "keyword:detmir.ru",
+            "keyword:pay.yandex.ru",
+            "keyword:kinopoisk.ru",
+            "keyword:gismeteo.ru",
+            "keyword:rzd.ru",
+            "keyword:5ka.ru",
+            "keyword:okko.tv",
+            "keyword:emias.info",
+            "keyword:ivi.ru",
+            "keyword:vk.com",
+            "keyword:vk.ru",
+            "keyword:perekrestok.ru",
+            "keyword:wildberries.ru",
+            "keyword:samokat.ru",
+            "keyword:alfabank.ru",
+            "keyword:vtb.ru",
+            "keyword:gazprombank.ru",
+            "keyword:xn--b1afabzvcegckfhg.xn--p1ai",
+            "keyword:mos.ru",
+            "keyword:blinkmap",
+            "keyword:max.ru",
+            "keyword:vk-analytics.ru",
+            "keyword:oneme.ru",
+            "keyword:okcdn.ru",
+            "keyword:trace-flow.ru",
+            "keyword:mycdn.me",
+            "keyword:apptracer.ru",
+            "keyword:kuper.ru",
+            "keyword:megamarket.ru",
+            "keyword:pochta.ru",
+            "keyword:citydrive",
+            "keyword:delimobil",
+            "keyword:mskobr.ru",
+            "keyword:avito.ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "protocol": [
+            "bittorrent"
+          ],
+          "outboundTag": "direct"
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "95.163.232.242",
+              "port": 2053,
+              "users": [
+                {
+                  "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "auto",
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": "64-128",
+                "maxConcurrency": "16-32",
+                "maxConnections": 0
+              },
+              "xPaddingBytes": "100-1000",
+              "scMaxEachPostBytes": 1000000,
+              "scMinPostsIntervalMs": 30
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "remarks": "[J2] 🇷🇺☀️ Все операторы (Крым)"
+  },
+  {
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "1.1.1.1",
+        "77.88.8.8"
+      ],
+      "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
+            "keyword:kinopoisk.ru",
+            "keyword:rutube.ru",
+            "keyword:ozon.ru",
+            "keyword:av.ru",
+            "keyword:gosuslugi.ru",
+            "keyword:hh.ru",
+            "keyword:vkusvill.ru",
+            "keyword:go.yandex.ru",
+            "keyword:yandex",
+            "keyword:tutu.ru",
+            "keyword:2gis.ru",
+            "keyword:lavka.yandex.ru",
+            "keyword:vkusnoitochka.ru",
+            "keyword:detmir.ru",
+            "keyword:pay.yandex.ru",
+            "keyword:kinopoisk.ru",
+            "keyword:gismeteo.ru",
+            "keyword:rzd.ru",
+            "keyword:5ka.ru",
+            "keyword:okko.tv",
+            "keyword:emias.info",
+            "keyword:ivi.ru",
+            "keyword:vk.com",
+            "keyword:vk.ru",
+            "keyword:perekrestok.ru",
+            "keyword:wildberries.ru",
+            "keyword:samokat.ru",
+            "keyword:alfabank.ru",
+            "keyword:vtb.ru",
+            "keyword:gazprombank.ru",
+            "keyword:xn--b1afabzvcegckfhg.xn--p1ai",
+            "keyword:mos.ru",
+            "keyword:blinkmap",
+            "keyword:max.ru",
+            "keyword:vk-analytics.ru",
+            "keyword:oneme.ru",
+            "keyword:okcdn.ru",
+            "keyword:trace-flow.ru",
+            "keyword:mycdn.me",
+            "keyword:apptracer.ru",
+            "keyword:kuper.ru",
+            "keyword:megamarket.ru",
+            "keyword:pochta.ru",
+            "keyword:citydrive",
+            "keyword:delimobil",
+            "keyword:mskobr.ru",
+            "keyword:avito.ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "protocol": [
+            "bittorrent"
+          ],
+          "outboundTag": "direct"
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -19251,7 +19395,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -19321,7 +19465,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -19428,7 +19572,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -19498,7 +19642,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -19605,7 +19749,7 @@
         "1.1.1.1",
         "77.88.8.8"
       ],
-      "queryStrategy": "UseIP"
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
       "rules": [
@@ -19675,7 +19819,7 @@
         }
       ],
       "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch"
+      "domainStrategy": "AsIs"
     },
     "inbounds": [
       {
@@ -19774,6 +19918,183 @@
       }
     ],
     "remarks": "[J2] 🇪🇺🦝 Все операторы"
+  },
+  {
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "1.1.1.1",
+        "77.88.8.8"
+      ],
+      "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "keyword:sub.furkvpn",
+            "keyword:mobile.furkvpn",
+            "keyword:furkconnection",
+            "keyword:furkapp",
+            "keyword:kinopoisk.ru",
+            "keyword:rutube.ru",
+            "keyword:ozon.ru",
+            "keyword:av.ru",
+            "keyword:gosuslugi.ru",
+            "keyword:hh.ru",
+            "keyword:vkusvill.ru",
+            "keyword:go.yandex.ru",
+            "keyword:yandex",
+            "keyword:tutu.ru",
+            "keyword:2gis.ru",
+            "keyword:lavka.yandex.ru",
+            "keyword:vkusnoitochka.ru",
+            "keyword:detmir.ru",
+            "keyword:pay.yandex.ru",
+            "keyword:kinopoisk.ru",
+            "keyword:gismeteo.ru",
+            "keyword:rzd.ru",
+            "keyword:5ka.ru",
+            "keyword:okko.tv",
+            "keyword:emias.info",
+            "keyword:ivi.ru",
+            "keyword:vk.com",
+            "keyword:vk.ru",
+            "keyword:perekrestok.ru",
+            "keyword:wildberries.ru",
+            "keyword:samokat.ru",
+            "keyword:alfabank.ru",
+            "keyword:vtb.ru",
+            "keyword:gazprombank.ru",
+            "keyword:xn--b1afabzvcegckfhg.xn--p1ai",
+            "keyword:mos.ru",
+            "keyword:blinkmap",
+            "keyword:max.ru",
+            "keyword:vk-analytics.ru",
+            "keyword:oneme.ru",
+            "keyword:okcdn.ru",
+            "keyword:trace-flow.ru",
+            "keyword:mycdn.me",
+            "keyword:apptracer.ru",
+            "keyword:kuper.ru",
+            "keyword:megamarket.ru",
+            "keyword:pochta.ru",
+            "keyword:citydrive",
+            "keyword:delimobil",
+            "keyword:mskobr.ru",
+            "keyword:avito.ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "protocol": [
+            "bittorrent"
+          ],
+          "outboundTag": "direct"
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "95.163.232.242",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "a715a0fb-1bc0-49d3-aec9-307f7e3e72ef",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "auto",
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": "64-128",
+                "maxConcurrency": "16-32",
+                "maxConnections": 0
+              },
+              "xPaddingBytes": "100-1000",
+              "scMaxEachPostBytes": 1000000,
+              "scMinPostsIntervalMs": 30
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "remarks": "[J2] 🇪🇺☀️ Все операторы (Крым)"
   },
   {
     "dns": {
@@ -24053,7 +24374,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "78.159.246.74",
+              "address": "46.243.234.98",
               "port": 8443,
               "users": [
                 {
@@ -24083,7 +24404,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "217.19.122.26",
+              "address": "217.19.122.57",
               "port": 8443,
               "users": [
                 {
@@ -28744,6 +29065,238 @@
       }
     ],
     "remarks": "[J3] 🇨🇦 LTE | Канада | µTorrent",
+    "meta": {
+      "serverDescription": "Lite"
+    }
+  },
+  {
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "domain:max.ru",
+            "domain:oneme.ru"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "domain:rtk.harknmav.fun",
+            "domain:sub.harknmav.fun",
+            "domain:st.harknmav.ru",
+            "keyword:yandex",
+            "domain:ya.ru",
+            "domain:ya.cc",
+            "keyword:yastat",
+            "keyword:yndx",
+            "keyword:yccdn",
+            "keyword:clck",
+            "keyword:kinopoisk",
+            "domain:mvk.com",
+            "domain:vk.com",
+            "domain:vk.ru",
+            "domain:vk.cc",
+            "domain:vk.link",
+            "domain:vk.me",
+            "keyword:vkontakte",
+            "keyword:userapi",
+            "keyword:cdn-vk",
+            "keyword:vk-cdn",
+            "keyword:vk-portal",
+            "keyword:vkcache",
+            "keyword:vkcdnservice",
+            "keyword:vkuser",
+            "keyword:vkmessenger",
+            "keyword:vk-apps",
+            "keyword:vkvideo",
+            "keyword:vkclips",
+            "keyword:vklive",
+            "keyword:boom",
+            "domain:ok.ru",
+            "domain:ok.me",
+            "domain:okl.lt",
+            "keyword:odnoklassniki",
+            "keyword:odnoklasniki",
+            "keyword:odkl",
+            "domain:okcdn.ru",
+            "keyword:apiok",
+            "keyword:insideok",
+            "keyword:mycdn",
+            "keyword:mrgcdn",
+            "domain:mts.ru",
+            "keyword:mymts",
+            "keyword:mts-ws",
+            "keyword:wildberries",
+            "domain:wb.ru",
+            "keyword:wb-basket",
+            "keyword:wbbasket",
+            "keyword:wbcontent",
+            "keyword:wbstatic",
+            "keyword:wb-sale",
+            "keyword:wbpay",
+            "keyword:paywb",
+            "keyword:ozon",
+            "domain:o3.ru",
+            "keyword:samokat",
+            "keyword:megamarket",
+            "keyword:rustore",
+            "keyword:avito",
+            "keyword:2gis",
+            "keyword:rutube",
+            "keyword:rtbcdn",
+            "keyword:alfa",
+            "domain:vtb.ru",
+            "keyword:vtb-direct",
+            "keyword:vtbglobalperspectives",
+            "keyword:gazprombank",
+            "domain:gpb.ru",
+            "domain:psb.ru",
+            "keyword:psbank",
+            "keyword:psb-ocenka",
+            "keyword:moex",
+            "keyword:finuslugi",
+            "keyword:nspk",
+            "keyword:mironline",
+            "keyword:mir-platform",
+            "keyword:sberdevices",
+            "keyword:zvuk",
+            "keyword:sbermobile",
+            "keyword:sberdisk",
+            "keyword:okko",
+            "keyword:playfamily",
+            "keyword:kuper",
+            "keyword:giga",
+            "domain:mail.ru",
+            "domain:tech-mail.ru",
+            "domain:appsmail.ru",
+            "domain:attachmail.ru",
+            "domain:cdnmail.ru",
+            "domain:imgsmail.ru",
+            "domain:smailru.net",
+            "domain:vmailru.net",
+            "domain:xmail.ru"
+          ],
+          "outboundTag": "direct"
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "95.129.238.41",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "grw-waf-1.harknmav.fun",
+            "path": "/storage/blob/v2/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "part",
+              "seqPlacement": "query",
+              "sessionIDKey": "upload_id",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkHTTPMethod": "POST",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "262144-524288",
+              "sessionIDPlacement": "query",
+              "uplinkDataPlacement": "body",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "grw-waf-1.harknmav.fun",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "remarks": "[J3] grw-1-grpc",
     "meta": {
       "serverDescription": "Lite"
     }
