@@ -1,45 +1,103 @@
 [
   {
     "remarks": "🚀 [AUTO] Автовыбор Pro (Все серверы)",
-    "observatory": {
-      "subjectSelector": [
-        "proxy_all_"
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
       ],
-      "probeURL": "http://www.gstatic.com/generate_204",
-      "probeInterval": "1m",
-      "enableConcurrent": true
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
-      "domainStrategy": "IPIfNonMatch",
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs",
       "rules": [
         {
           "type": "field",
-          "ip": [
-            "geoip:private"
+          "domain": [
+            "keyword:max.ru",
+            "keyword:oneme"
           ],
-          "outboundTag": "DIRECT"
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "domain:rtk.harknmav.fun",
+            "domain:sub.harknmav.fun",
+            "domain:kassa.ai",
+            "domain:wata.pro",
+            "domain:aurapay.tech",
+            "domain:page46.top",
+            "domain:onedef.tech",
+            "domain:next-gate.app",
+            "domain:checkout.mozex.net",
+            "domain:ephir.live",
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct"
         },
         {
           "type": "field",
           "network": "tcp,udp",
-          "balancerTag": "balancer_proxy_all"
+          "balancerTag": "Super_Balancer"
         }
       ],
       "balancers": [
         {
-          "tag": "balancer_proxy_all",
+          "tag": "Super_Balancer",
           "selector": [
-            "proxy_all_"
+            "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "2500ms",
+              "expected": 2,
+              "tolerance": 0.11
+            }
           }
         }
       ]
     },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      }
+    ],
     "outbounds": [
       {
-        "tag": "proxy_all_0",
+        "tag": "proxy",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -69,7 +127,7 @@
         }
       },
       {
-        "tag": "proxy_all_1",
+        "tag": "proxy-2",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -105,12 +163,12 @@
         }
       },
       {
-        "tag": "proxy_all_2",
+        "tag": "proxy-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "de8.nngo.cc",
+              "address": "de4.nnmm.me",
               "port": 443,
               "users": [
                 {
@@ -127,7 +185,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de8.nngo.cc",
+            "serverName": "de4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -135,12 +193,12 @@
         }
       },
       {
-        "tag": "proxy_all_3",
+        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "nl2.nngo.cc",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -157,7 +215,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "nl2.nngo.cc",
+            "serverName": "nl3.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -165,7 +223,7 @@
         }
       },
       {
-        "tag": "proxy_all_4",
+        "tag": "proxy-5",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -198,7 +256,7 @@
         }
       },
       {
-        "tag": "proxy_all_5",
+        "tag": "proxy-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -228,7 +286,7 @@
         }
       },
       {
-        "tag": "proxy_all_6",
+        "tag": "proxy-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -258,7 +316,7 @@
         }
       },
       {
-        "tag": "proxy_all_7",
+        "tag": "proxy-8",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -291,7 +349,7 @@
         }
       },
       {
-        "tag": "proxy_all_8",
+        "tag": "proxy-9",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -321,7 +379,7 @@
         }
       },
       {
-        "tag": "proxy_all_9",
+        "tag": "proxy-10",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -351,7 +409,7 @@
         }
       },
       {
-        "tag": "proxy_all_10",
+        "tag": "proxy-11",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -381,7 +439,7 @@
         }
       },
       {
-        "tag": "proxy_all_11",
+        "tag": "proxy-12",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -430,7 +488,7 @@
         }
       },
       {
-        "tag": "proxy_all_12",
+        "tag": "proxy-13",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -466,7 +524,7 @@
         }
       },
       {
-        "tag": "proxy_all_13",
+        "tag": "proxy-14",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -496,7 +554,7 @@
         }
       },
       {
-        "tag": "proxy_all_14",
+        "tag": "proxy-15",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -532,7 +590,7 @@
         }
       },
       {
-        "tag": "proxy_all_15",
+        "tag": "proxy-16",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -562,12 +620,12 @@
         }
       },
       {
-        "tag": "proxy_all_16",
+        "tag": "proxy-17",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.207",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -584,7 +642,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -592,12 +650,12 @@
         }
       },
       {
-        "tag": "proxy_all_17",
+        "tag": "proxy-18",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "188.225.58.70",
+              "address": "188.225.33.28",
               "port": 443,
               "users": [
                 {
@@ -614,7 +672,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -622,7 +680,7 @@
         }
       },
       {
-        "tag": "proxy_all_18",
+        "tag": "proxy-19",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -658,7 +716,7 @@
         }
       },
       {
-        "tag": "proxy_all_19",
+        "tag": "proxy-20",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -680,7 +738,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -688,7 +746,7 @@
         }
       },
       {
-        "tag": "proxy_all_20",
+        "tag": "proxy-21",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -710,7 +768,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -718,7 +776,7 @@
         }
       },
       {
-        "tag": "proxy_all_21",
+        "tag": "proxy-22",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -746,7 +804,7 @@
         }
       },
       {
-        "tag": "proxy_all_22",
+        "tag": "proxy-23",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -776,7 +834,7 @@
         }
       },
       {
-        "tag": "proxy_all_23",
+        "tag": "proxy-24",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -823,7 +881,7 @@
         }
       },
       {
-        "tag": "proxy_all_24",
+        "tag": "proxy-25",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -870,7 +928,7 @@
         }
       },
       {
-        "tag": "proxy_all_25",
+        "tag": "proxy-26",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -917,7 +975,7 @@
         }
       },
       {
-        "tag": "proxy_all_26",
+        "tag": "proxy-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -946,7 +1004,7 @@
         }
       },
       {
-        "tag": "proxy_all_27",
+        "tag": "proxy-28",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -976,7 +1034,7 @@
         }
       },
       {
-        "tag": "proxy_all_28",
+        "tag": "proxy-29",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1006,7 +1064,7 @@
         }
       },
       {
-        "tag": "proxy_all_29",
+        "tag": "proxy-30",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1039,7 +1097,7 @@
         }
       },
       {
-        "tag": "proxy_all_30",
+        "tag": "proxy-31",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1072,7 +1130,7 @@
         }
       },
       {
-        "tag": "proxy_all_31",
+        "tag": "proxy-32",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1105,7 +1163,7 @@
         }
       },
       {
-        "tag": "proxy_all_32",
+        "tag": "proxy-33",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1138,7 +1196,7 @@
         }
       },
       {
-        "tag": "proxy_all_33",
+        "tag": "proxy-34",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1171,7 +1229,7 @@
         }
       },
       {
-        "tag": "proxy_all_34",
+        "tag": "proxy-35",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1204,7 +1262,7 @@
         }
       },
       {
-        "tag": "proxy_all_35",
+        "tag": "proxy-36",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1237,7 +1295,7 @@
         }
       },
       {
-        "tag": "proxy_all_36",
+        "tag": "proxy-37",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1270,7 +1328,7 @@
         }
       },
       {
-        "tag": "proxy_all_37",
+        "tag": "proxy-38",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1299,7 +1357,7 @@
         }
       },
       {
-        "tag": "proxy_all_38",
+        "tag": "proxy-39",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1346,7 +1404,7 @@
         }
       },
       {
-        "tag": "proxy_all_39",
+        "tag": "proxy-40",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1393,7 +1451,7 @@
         }
       },
       {
-        "tag": "proxy_all_40",
+        "tag": "proxy-41",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1440,7 +1498,7 @@
         }
       },
       {
-        "tag": "proxy_all_41",
+        "tag": "proxy-42",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1487,7 +1545,7 @@
         }
       },
       {
-        "tag": "proxy_all_42",
+        "tag": "proxy-43",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1534,7 +1592,7 @@
         }
       },
       {
-        "tag": "proxy_all_43",
+        "tag": "proxy-44",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1581,7 +1639,7 @@
         }
       },
       {
-        "tag": "proxy_all_44",
+        "tag": "proxy-45",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1628,7 +1686,7 @@
         }
       },
       {
-        "tag": "proxy_all_45",
+        "tag": "proxy-46",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1675,7 +1733,7 @@
         }
       },
       {
-        "tag": "proxy_all_46",
+        "tag": "proxy-47",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1713,7 +1771,7 @@
         }
       },
       {
-        "tag": "proxy_all_47",
+        "tag": "proxy-48",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1760,7 +1818,7 @@
         }
       },
       {
-        "tag": "proxy_all_48",
+        "tag": "proxy-49",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1807,7 +1865,7 @@
         }
       },
       {
-        "tag": "proxy_all_49",
+        "tag": "proxy-50",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1854,7 +1912,7 @@
         }
       },
       {
-        "tag": "proxy_all_50",
+        "tag": "proxy-51",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1901,7 +1959,7 @@
         }
       },
       {
-        "tag": "proxy_all_51",
+        "tag": "proxy-52",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1948,7 +2006,7 @@
         }
       },
       {
-        "tag": "proxy_all_52",
+        "tag": "proxy-53",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1995,7 +2053,7 @@
         }
       },
       {
-        "tag": "proxy_all_53",
+        "tag": "proxy-54",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2042,7 +2100,7 @@
         }
       },
       {
-        "tag": "proxy_all_54",
+        "tag": "proxy-55",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2089,7 +2147,7 @@
         }
       },
       {
-        "tag": "proxy_all_55",
+        "tag": "proxy-56",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2122,7 +2180,7 @@
         }
       },
       {
-        "tag": "proxy_all_56",
+        "tag": "proxy-57",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2162,7 +2220,7 @@
         }
       },
       {
-        "tag": "proxy_all_57",
+        "tag": "proxy-58",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -2198,7 +2256,7 @@
         }
       },
       {
-        "tag": "proxy_all_58",
+        "tag": "proxy-59",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2231,7 +2289,7 @@
         }
       },
       {
-        "tag": "proxy_all_59",
+        "tag": "proxy-60",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2264,7 +2322,7 @@
         }
       },
       {
-        "tag": "proxy_all_60",
+        "tag": "proxy-61",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2297,7 +2355,7 @@
         }
       },
       {
-        "tag": "proxy_all_61",
+        "tag": "proxy-62",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2330,7 +2388,7 @@
         }
       },
       {
-        "tag": "proxy_all_62",
+        "tag": "proxy-63",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2363,7 +2421,7 @@
         }
       },
       {
-        "tag": "proxy_all_63",
+        "tag": "proxy-64",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2396,7 +2454,7 @@
         }
       },
       {
-        "tag": "proxy_all_64",
+        "tag": "proxy-65",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2429,7 +2487,7 @@
         }
       },
       {
-        "tag": "proxy_all_65",
+        "tag": "proxy-66",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2469,7 +2527,7 @@
         }
       },
       {
-        "tag": "proxy_all_66",
+        "tag": "proxy-67",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2509,7 +2567,7 @@
         }
       },
       {
-        "tag": "proxy_all_67",
+        "tag": "proxy-68",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -2535,7 +2593,7 @@
         }
       },
       {
-        "tag": "proxy_all_68",
+        "tag": "proxy-69",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -2561,7 +2619,7 @@
         }
       },
       {
-        "tag": "proxy_all_69",
+        "tag": "proxy-70",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2601,7 +2659,7 @@
         }
       },
       {
-        "tag": "proxy_all_70",
+        "tag": "proxy-71",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2632,7 +2690,7 @@
         }
       },
       {
-        "tag": "proxy_all_71",
+        "tag": "proxy-72",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2660,7 +2718,7 @@
         }
       },
       {
-        "tag": "proxy_all_72",
+        "tag": "proxy-73",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2692,7 +2750,7 @@
         }
       },
       {
-        "tag": "proxy_all_73",
+        "tag": "proxy-74",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2720,7 +2778,7 @@
         }
       },
       {
-        "tag": "proxy_all_74",
+        "tag": "proxy-75",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2751,7 +2809,7 @@
         }
       },
       {
-        "tag": "proxy_all_75",
+        "tag": "proxy-76",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2821,7 +2879,7 @@
             "show": false
           }
         },
-        "tag": "proxy_all_76"
+        "tag": "proxy-77"
       },
       {
         "mux": {
@@ -2862,7 +2920,7 @@
             "show": false
           }
         },
-        "tag": "proxy_all_77"
+        "tag": "proxy-78"
       },
       {
         "mux": {
@@ -2903,10 +2961,10 @@
             "show": false
           }
         },
-        "tag": "proxy_all_78"
+        "tag": "proxy-79"
       },
       {
-        "tag": "proxy_all_79",
+        "tag": "proxy-80",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2951,7 +3009,7 @@
         }
       },
       {
-        "tag": "proxy_all_80",
+        "tag": "proxy-81",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2996,7 +3054,7 @@
         }
       },
       {
-        "tag": "proxy_all_81",
+        "tag": "proxy-82",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3041,7 +3099,7 @@
         }
       },
       {
-        "tag": "proxy_all_82",
+        "tag": "proxy-83",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3086,7 +3144,7 @@
         }
       },
       {
-        "tag": "proxy_all_83",
+        "tag": "proxy-84",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3131,7 +3189,7 @@
         }
       },
       {
-        "tag": "proxy_all_84",
+        "tag": "proxy-85",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3176,7 +3234,7 @@
         }
       },
       {
-        "tag": "proxy_all_85",
+        "tag": "proxy-86",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3221,7 +3279,7 @@
         }
       },
       {
-        "tag": "proxy_all_86",
+        "tag": "proxy-87",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3266,7 +3324,7 @@
         }
       },
       {
-        "tag": "proxy_all_87",
+        "tag": "proxy-88",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3311,7 +3369,7 @@
         }
       },
       {
-        "tag": "proxy_all_88",
+        "tag": "proxy-89",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3356,7 +3414,7 @@
         }
       },
       {
-        "tag": "proxy_all_89",
+        "tag": "proxy-90",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3401,7 +3459,7 @@
         }
       },
       {
-        "tag": "proxy_all_90",
+        "tag": "proxy-91",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3446,7 +3504,7 @@
         }
       },
       {
-        "tag": "proxy_all_91",
+        "tag": "proxy-92",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3491,7 +3549,7 @@
         }
       },
       {
-        "tag": "proxy_all_92",
+        "tag": "proxy-93",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3536,7 +3594,7 @@
         }
       },
       {
-        "tag": "proxy_all_93",
+        "tag": "proxy-94",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3581,7 +3639,7 @@
         }
       },
       {
-        "tag": "proxy_all_94",
+        "tag": "proxy-95",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3626,7 +3684,7 @@
         }
       },
       {
-        "tag": "proxy_all_95",
+        "tag": "proxy-96",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3656,7 +3714,7 @@
         }
       },
       {
-        "tag": "proxy_all_96",
+        "tag": "proxy-97",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3716,7 +3774,7 @@
         }
       },
       {
-        "tag": "proxy_all_97",
+        "tag": "proxy-98",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3761,7 +3819,7 @@
         }
       },
       {
-        "tag": "proxy_all_98",
+        "tag": "proxy-99",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3806,7 +3864,7 @@
         }
       },
       {
-        "tag": "proxy_all_99",
+        "tag": "proxy-100",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3851,7 +3909,7 @@
         }
       },
       {
-        "tag": "proxy_all_100",
+        "tag": "proxy-101",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3896,7 +3954,7 @@
         }
       },
       {
-        "tag": "proxy_all_101",
+        "tag": "proxy-102",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3941,7 +3999,7 @@
         }
       },
       {
-        "tag": "proxy_all_102",
+        "tag": "proxy-103",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3986,7 +4044,7 @@
         }
       },
       {
-        "tag": "proxy_all_103",
+        "tag": "proxy-104",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4031,7 +4089,7 @@
         }
       },
       {
-        "tag": "proxy_all_104",
+        "tag": "proxy-105",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4076,7 +4134,7 @@
         }
       },
       {
-        "tag": "proxy_all_105",
+        "tag": "proxy-106",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4121,56 +4179,127 @@
         }
       },
       {
-        "tag": "DIRECT",
+        "tag": "direct",
         "protocol": "freedom"
       },
       {
-        "tag": "BLOCK",
+        "tag": "block",
         "protocol": "blackhole"
       }
-    ]
+    ],
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "5s",
+        "interval": "60s",
+        "sampling": 2,
+        "httpMethod": "HEAD",
+        "destination": "https://www.gstatic.com/generate_204",
+        "connectivity": "http://connectivitycheck.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "proxy"
+      ]
+    }
   },
   {
     "remarks": "🚀 [AUTO] Автовыбор (J1)",
-    "observatory": {
-      "subjectSelector": [
-        "proxy_J1_"
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
       ],
-      "probeURL": "http://www.gstatic.com/generate_204",
-      "probeInterval": "1m",
-      "enableConcurrent": true
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
-      "domainStrategy": "IPIfNonMatch",
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs",
       "rules": [
         {
           "type": "field",
-          "ip": [
-            "geoip:private"
+          "domain": [
+            "keyword:max.ru",
+            "keyword:oneme"
           ],
-          "outboundTag": "DIRECT"
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "domain:rtk.harknmav.fun",
+            "domain:sub.harknmav.fun",
+            "domain:kassa.ai",
+            "domain:wata.pro",
+            "domain:aurapay.tech",
+            "domain:page46.top",
+            "domain:onedef.tech",
+            "domain:next-gate.app",
+            "domain:checkout.mozex.net",
+            "domain:ephir.live",
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct"
         },
         {
           "type": "field",
           "network": "tcp,udp",
-          "balancerTag": "balancer_proxy_J1"
+          "balancerTag": "Super_Balancer"
         }
       ],
       "balancers": [
         {
-          "tag": "balancer_proxy_J1",
+          "tag": "Super_Balancer",
           "selector": [
-            "proxy_J1_"
+            "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "2500ms",
+              "expected": 2,
+              "tolerance": 0.11
+            }
           }
         }
       ]
     },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      }
+    ],
     "outbounds": [
       {
-        "tag": "proxy_J1_0",
+        "tag": "proxy",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4200,7 +4329,7 @@
         }
       },
       {
-        "tag": "proxy_J1_1",
+        "tag": "proxy-2",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -4236,12 +4365,12 @@
         }
       },
       {
-        "tag": "proxy_J1_2",
+        "tag": "proxy-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "de8.nngo.cc",
+              "address": "de4.nnmm.me",
               "port": 443,
               "users": [
                 {
@@ -4258,7 +4387,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de8.nngo.cc",
+            "serverName": "de4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -4266,12 +4395,12 @@
         }
       },
       {
-        "tag": "proxy_J1_3",
+        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "nl2.nngo.cc",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -4288,7 +4417,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "nl2.nngo.cc",
+            "serverName": "nl3.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -4296,7 +4425,7 @@
         }
       },
       {
-        "tag": "proxy_J1_4",
+        "tag": "proxy-5",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -4329,7 +4458,7 @@
         }
       },
       {
-        "tag": "proxy_J1_5",
+        "tag": "proxy-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4359,7 +4488,7 @@
         }
       },
       {
-        "tag": "proxy_J1_6",
+        "tag": "proxy-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4389,7 +4518,7 @@
         }
       },
       {
-        "tag": "proxy_J1_7",
+        "tag": "proxy-8",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -4422,7 +4551,7 @@
         }
       },
       {
-        "tag": "proxy_J1_8",
+        "tag": "proxy-9",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4452,7 +4581,7 @@
         }
       },
       {
-        "tag": "proxy_J1_9",
+        "tag": "proxy-10",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4482,7 +4611,7 @@
         }
       },
       {
-        "tag": "proxy_J1_10",
+        "tag": "proxy-11",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4512,7 +4641,7 @@
         }
       },
       {
-        "tag": "proxy_J1_11",
+        "tag": "proxy-12",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -4561,7 +4690,7 @@
         }
       },
       {
-        "tag": "proxy_J1_12",
+        "tag": "proxy-13",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -4597,7 +4726,7 @@
         }
       },
       {
-        "tag": "proxy_J1_13",
+        "tag": "proxy-14",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4627,7 +4756,7 @@
         }
       },
       {
-        "tag": "proxy_J1_14",
+        "tag": "proxy-15",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -4663,7 +4792,7 @@
         }
       },
       {
-        "tag": "proxy_J1_15",
+        "tag": "proxy-16",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4693,12 +4822,12 @@
         }
       },
       {
-        "tag": "proxy_J1_16",
+        "tag": "proxy-17",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.207",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -4715,7 +4844,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -4723,12 +4852,12 @@
         }
       },
       {
-        "tag": "proxy_J1_17",
+        "tag": "proxy-18",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "188.225.58.70",
+              "address": "188.225.33.28",
               "port": 443,
               "users": [
                 {
@@ -4745,7 +4874,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -4753,7 +4882,7 @@
         }
       },
       {
-        "tag": "proxy_J1_18",
+        "tag": "proxy-19",
         "protocol": "trojan",
         "settings": {
           "servers": [
@@ -4789,7 +4918,7 @@
         }
       },
       {
-        "tag": "proxy_J1_19",
+        "tag": "proxy-20",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4811,7 +4940,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -4819,7 +4948,7 @@
         }
       },
       {
-        "tag": "proxy_J1_20",
+        "tag": "proxy-21",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4841,7 +4970,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -4849,56 +4978,127 @@
         }
       },
       {
-        "tag": "DIRECT",
+        "tag": "direct",
         "protocol": "freedom"
       },
       {
-        "tag": "BLOCK",
+        "tag": "block",
         "protocol": "blackhole"
       }
-    ]
+    ],
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "5s",
+        "interval": "60s",
+        "sampling": 2,
+        "httpMethod": "HEAD",
+        "destination": "https://www.gstatic.com/generate_204",
+        "connectivity": "http://connectivitycheck.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "proxy"
+      ]
+    }
   },
   {
     "remarks": "🚀 [AUTO] Автовыбор (J2)",
-    "observatory": {
-      "subjectSelector": [
-        "proxy_J2_"
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
       ],
-      "probeURL": "http://www.gstatic.com/generate_204",
-      "probeInterval": "1m",
-      "enableConcurrent": true
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
-      "domainStrategy": "IPIfNonMatch",
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs",
       "rules": [
         {
           "type": "field",
-          "ip": [
-            "geoip:private"
+          "domain": [
+            "keyword:max.ru",
+            "keyword:oneme"
           ],
-          "outboundTag": "DIRECT"
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "domain:rtk.harknmav.fun",
+            "domain:sub.harknmav.fun",
+            "domain:kassa.ai",
+            "domain:wata.pro",
+            "domain:aurapay.tech",
+            "domain:page46.top",
+            "domain:onedef.tech",
+            "domain:next-gate.app",
+            "domain:checkout.mozex.net",
+            "domain:ephir.live",
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct"
         },
         {
           "type": "field",
           "network": "tcp,udp",
-          "balancerTag": "balancer_proxy_J2"
+          "balancerTag": "Super_Balancer"
         }
       ],
       "balancers": [
         {
-          "tag": "balancer_proxy_J2",
+          "tag": "Super_Balancer",
           "selector": [
-            "proxy_J2_"
+            "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "2500ms",
+              "expected": 2,
+              "tolerance": 0.11
+            }
           }
         }
       ]
     },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      }
+    ],
     "outbounds": [
       {
-        "tag": "proxy_J2_0",
+        "tag": "proxy",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4926,7 +5126,7 @@
         }
       },
       {
-        "tag": "proxy_J2_1",
+        "tag": "proxy-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4956,7 +5156,7 @@
         }
       },
       {
-        "tag": "proxy_J2_2",
+        "tag": "proxy-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5003,7 +5203,7 @@
         }
       },
       {
-        "tag": "proxy_J2_3",
+        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5050,7 +5250,7 @@
         }
       },
       {
-        "tag": "proxy_J2_4",
+        "tag": "proxy-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5097,7 +5297,7 @@
         }
       },
       {
-        "tag": "proxy_J2_5",
+        "tag": "proxy-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5126,7 +5326,7 @@
         }
       },
       {
-        "tag": "proxy_J2_6",
+        "tag": "proxy-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5156,7 +5356,7 @@
         }
       },
       {
-        "tag": "proxy_J2_7",
+        "tag": "proxy-8",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5186,7 +5386,7 @@
         }
       },
       {
-        "tag": "proxy_J2_8",
+        "tag": "proxy-9",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5219,7 +5419,7 @@
         }
       },
       {
-        "tag": "proxy_J2_9",
+        "tag": "proxy-10",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5252,7 +5452,7 @@
         }
       },
       {
-        "tag": "proxy_J2_10",
+        "tag": "proxy-11",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5285,7 +5485,7 @@
         }
       },
       {
-        "tag": "proxy_J2_11",
+        "tag": "proxy-12",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5318,7 +5518,7 @@
         }
       },
       {
-        "tag": "proxy_J2_12",
+        "tag": "proxy-13",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5351,7 +5551,7 @@
         }
       },
       {
-        "tag": "proxy_J2_13",
+        "tag": "proxy-14",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5384,7 +5584,7 @@
         }
       },
       {
-        "tag": "proxy_J2_14",
+        "tag": "proxy-15",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5417,7 +5617,7 @@
         }
       },
       {
-        "tag": "proxy_J2_15",
+        "tag": "proxy-16",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5450,7 +5650,7 @@
         }
       },
       {
-        "tag": "proxy_J2_16",
+        "tag": "proxy-17",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5479,7 +5679,7 @@
         }
       },
       {
-        "tag": "proxy_J2_17",
+        "tag": "proxy-18",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5526,7 +5726,7 @@
         }
       },
       {
-        "tag": "proxy_J2_18",
+        "tag": "proxy-19",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5573,7 +5773,7 @@
         }
       },
       {
-        "tag": "proxy_J2_19",
+        "tag": "proxy-20",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5620,7 +5820,7 @@
         }
       },
       {
-        "tag": "proxy_J2_20",
+        "tag": "proxy-21",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5667,7 +5867,7 @@
         }
       },
       {
-        "tag": "proxy_J2_21",
+        "tag": "proxy-22",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5714,7 +5914,7 @@
         }
       },
       {
-        "tag": "proxy_J2_22",
+        "tag": "proxy-23",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5761,7 +5961,7 @@
         }
       },
       {
-        "tag": "proxy_J2_23",
+        "tag": "proxy-24",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5808,7 +6008,7 @@
         }
       },
       {
-        "tag": "proxy_J2_24",
+        "tag": "proxy-25",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5855,7 +6055,7 @@
         }
       },
       {
-        "tag": "proxy_J2_25",
+        "tag": "proxy-26",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5893,7 +6093,7 @@
         }
       },
       {
-        "tag": "proxy_J2_26",
+        "tag": "proxy-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5940,7 +6140,7 @@
         }
       },
       {
-        "tag": "proxy_J2_27",
+        "tag": "proxy-28",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5987,7 +6187,7 @@
         }
       },
       {
-        "tag": "proxy_J2_28",
+        "tag": "proxy-29",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6034,7 +6234,7 @@
         }
       },
       {
-        "tag": "proxy_J2_29",
+        "tag": "proxy-30",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6081,7 +6281,7 @@
         }
       },
       {
-        "tag": "proxy_J2_30",
+        "tag": "proxy-31",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6128,7 +6328,7 @@
         }
       },
       {
-        "tag": "proxy_J2_31",
+        "tag": "proxy-32",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6175,7 +6375,7 @@
         }
       },
       {
-        "tag": "proxy_J2_32",
+        "tag": "proxy-33",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6222,7 +6422,7 @@
         }
       },
       {
-        "tag": "proxy_J2_33",
+        "tag": "proxy-34",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6269,56 +6469,127 @@
         }
       },
       {
-        "tag": "DIRECT",
+        "tag": "direct",
         "protocol": "freedom"
       },
       {
-        "tag": "BLOCK",
+        "tag": "block",
         "protocol": "blackhole"
       }
-    ]
+    ],
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "5s",
+        "interval": "60s",
+        "sampling": 2,
+        "httpMethod": "HEAD",
+        "destination": "https://www.gstatic.com/generate_204",
+        "connectivity": "http://connectivitycheck.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "proxy"
+      ]
+    }
   },
   {
     "remarks": "🚀 [AUTO] Автовыбор (J3)",
-    "observatory": {
-      "subjectSelector": [
-        "proxy_J3_"
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
       ],
-      "probeURL": "http://www.gstatic.com/generate_204",
-      "probeInterval": "1m",
-      "enableConcurrent": true
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
-      "domainStrategy": "IPIfNonMatch",
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs",
       "rules": [
         {
           "type": "field",
-          "ip": [
-            "geoip:private"
+          "domain": [
+            "keyword:max.ru",
+            "keyword:oneme"
           ],
-          "outboundTag": "DIRECT"
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "domain:rtk.harknmav.fun",
+            "domain:sub.harknmav.fun",
+            "domain:kassa.ai",
+            "domain:wata.pro",
+            "domain:aurapay.tech",
+            "domain:page46.top",
+            "domain:onedef.tech",
+            "domain:next-gate.app",
+            "domain:checkout.mozex.net",
+            "domain:ephir.live",
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct"
         },
         {
           "type": "field",
           "network": "tcp,udp",
-          "balancerTag": "balancer_proxy_J3"
+          "balancerTag": "Super_Balancer"
         }
       ],
       "balancers": [
         {
-          "tag": "balancer_proxy_J3",
+          "tag": "Super_Balancer",
           "selector": [
-            "proxy_J3_"
+            "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "2500ms",
+              "expected": 2,
+              "tolerance": 0.11
+            }
           }
         }
       ]
     },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      }
+    ],
     "outbounds": [
       {
-        "tag": "proxy_J3_0",
+        "tag": "proxy",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6351,7 +6622,7 @@
         }
       },
       {
-        "tag": "proxy_J3_1",
+        "tag": "proxy-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6391,7 +6662,7 @@
         }
       },
       {
-        "tag": "proxy_J3_2",
+        "tag": "proxy-3",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -6427,7 +6698,7 @@
         }
       },
       {
-        "tag": "proxy_J3_3",
+        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6460,7 +6731,7 @@
         }
       },
       {
-        "tag": "proxy_J3_4",
+        "tag": "proxy-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6493,7 +6764,7 @@
         }
       },
       {
-        "tag": "proxy_J3_5",
+        "tag": "proxy-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6526,7 +6797,7 @@
         }
       },
       {
-        "tag": "proxy_J3_6",
+        "tag": "proxy-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6559,7 +6830,7 @@
         }
       },
       {
-        "tag": "proxy_J3_7",
+        "tag": "proxy-8",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6592,7 +6863,7 @@
         }
       },
       {
-        "tag": "proxy_J3_8",
+        "tag": "proxy-9",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6625,7 +6896,7 @@
         }
       },
       {
-        "tag": "proxy_J3_9",
+        "tag": "proxy-10",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6658,7 +6929,7 @@
         }
       },
       {
-        "tag": "proxy_J3_10",
+        "tag": "proxy-11",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6698,7 +6969,7 @@
         }
       },
       {
-        "tag": "proxy_J3_11",
+        "tag": "proxy-12",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6738,7 +7009,7 @@
         }
       },
       {
-        "tag": "proxy_J3_12",
+        "tag": "proxy-13",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -6764,7 +7035,7 @@
         }
       },
       {
-        "tag": "proxy_J3_13",
+        "tag": "proxy-14",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -6790,7 +7061,7 @@
         }
       },
       {
-        "tag": "proxy_J3_14",
+        "tag": "proxy-15",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6830,56 +7101,127 @@
         }
       },
       {
-        "tag": "DIRECT",
+        "tag": "direct",
         "protocol": "freedom"
       },
       {
-        "tag": "BLOCK",
+        "tag": "block",
         "protocol": "blackhole"
       }
-    ]
+    ],
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "5s",
+        "interval": "60s",
+        "sampling": 2,
+        "httpMethod": "HEAD",
+        "destination": "https://www.gstatic.com/generate_204",
+        "connectivity": "http://connectivitycheck.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "proxy"
+      ]
+    }
   },
   {
     "remarks": "🚀 [AUTO] Автовыбор (MV)",
-    "observatory": {
-      "subjectSelector": [
-        "proxy_MV_"
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
       ],
-      "probeURL": "http://www.gstatic.com/generate_204",
-      "probeInterval": "1m",
-      "enableConcurrent": true
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
-      "domainStrategy": "IPIfNonMatch",
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs",
       "rules": [
         {
           "type": "field",
-          "ip": [
-            "geoip:private"
+          "domain": [
+            "keyword:max.ru",
+            "keyword:oneme"
           ],
-          "outboundTag": "DIRECT"
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "domain:rtk.harknmav.fun",
+            "domain:sub.harknmav.fun",
+            "domain:kassa.ai",
+            "domain:wata.pro",
+            "domain:aurapay.tech",
+            "domain:page46.top",
+            "domain:onedef.tech",
+            "domain:next-gate.app",
+            "domain:checkout.mozex.net",
+            "domain:ephir.live",
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct"
         },
         {
           "type": "field",
           "network": "tcp,udp",
-          "balancerTag": "balancer_proxy_MV"
+          "balancerTag": "Super_Balancer"
         }
       ],
       "balancers": [
         {
-          "tag": "balancer_proxy_MV",
+          "tag": "Super_Balancer",
           "selector": [
-            "proxy_MV_"
+            "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "2500ms",
+              "expected": 2,
+              "tolerance": 0.11
+            }
           }
         }
       ]
     },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      }
+    ],
     "outbounds": [
       {
-        "tag": "proxy_MV_0",
+        "tag": "proxy",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6910,7 +7252,7 @@
         }
       },
       {
-        "tag": "proxy_MV_1",
+        "tag": "proxy-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6938,7 +7280,7 @@
         }
       },
       {
-        "tag": "proxy_MV_2",
+        "tag": "proxy-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6970,7 +7312,7 @@
         }
       },
       {
-        "tag": "proxy_MV_3",
+        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6998,7 +7340,7 @@
         }
       },
       {
-        "tag": "proxy_MV_4",
+        "tag": "proxy-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7029,7 +7371,7 @@
         }
       },
       {
-        "tag": "proxy_MV_5",
+        "tag": "proxy-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7061,53 +7403,124 @@
         }
       },
       {
-        "tag": "DIRECT",
+        "tag": "direct",
         "protocol": "freedom"
       },
       {
-        "tag": "BLOCK",
+        "tag": "block",
         "protocol": "blackhole"
       }
-    ]
+    ],
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "5s",
+        "interval": "60s",
+        "sampling": 2,
+        "httpMethod": "HEAD",
+        "destination": "https://www.gstatic.com/generate_204",
+        "connectivity": "http://connectivitycheck.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "proxy"
+      ]
+    }
   },
   {
     "remarks": "🚀 [AUTO] Автовыбор (MJ)",
-    "observatory": {
-      "subjectSelector": [
-        "proxy_MJ_"
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
       ],
-      "probeURL": "http://www.gstatic.com/generate_204",
-      "probeInterval": "1m",
-      "enableConcurrent": true
+      "queryStrategy": "UseIPv4"
     },
     "routing": {
-      "domainStrategy": "IPIfNonMatch",
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs",
       "rules": [
         {
           "type": "field",
-          "ip": [
-            "geoip:private"
+          "domain": [
+            "keyword:max.ru",
+            "keyword:oneme"
           ],
-          "outboundTag": "DIRECT"
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "domain:rtk.harknmav.fun",
+            "domain:sub.harknmav.fun",
+            "domain:kassa.ai",
+            "domain:wata.pro",
+            "domain:aurapay.tech",
+            "domain:page46.top",
+            "domain:onedef.tech",
+            "domain:next-gate.app",
+            "domain:checkout.mozex.net",
+            "domain:ephir.live",
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct"
         },
         {
           "type": "field",
           "network": "tcp,udp",
-          "balancerTag": "balancer_proxy_MJ"
+          "balancerTag": "Super_Balancer"
         }
       ],
       "balancers": [
         {
-          "tag": "balancer_proxy_MJ",
+          "tag": "Super_Balancer",
           "selector": [
-            "proxy_MJ_"
+            "proxy"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "2500ms",
+              "expected": 2,
+              "tolerance": 0.11
+            }
           }
         }
       ]
     },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      }
+    ],
     "outbounds": [
       {
         "mux": {
@@ -7148,7 +7561,7 @@
             "show": false
           }
         },
-        "tag": "proxy_MJ_0"
+        "tag": "proxy"
       },
       {
         "mux": {
@@ -7189,7 +7602,7 @@
             "show": false
           }
         },
-        "tag": "proxy_MJ_1"
+        "tag": "proxy-2"
       },
       {
         "mux": {
@@ -7230,10 +7643,10 @@
             "show": false
           }
         },
-        "tag": "proxy_MJ_2"
+        "tag": "proxy-3"
       },
       {
-        "tag": "proxy_MJ_3",
+        "tag": "proxy-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7278,7 +7691,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_4",
+        "tag": "proxy-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7323,7 +7736,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_5",
+        "tag": "proxy-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7368,7 +7781,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_6",
+        "tag": "proxy-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7413,7 +7826,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_7",
+        "tag": "proxy-8",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7458,7 +7871,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_8",
+        "tag": "proxy-9",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7503,7 +7916,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_9",
+        "tag": "proxy-10",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7548,7 +7961,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_10",
+        "tag": "proxy-11",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7593,7 +8006,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_11",
+        "tag": "proxy-12",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7638,7 +8051,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_12",
+        "tag": "proxy-13",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7683,7 +8096,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_13",
+        "tag": "proxy-14",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7728,7 +8141,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_14",
+        "tag": "proxy-15",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7773,7 +8186,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_15",
+        "tag": "proxy-16",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7818,7 +8231,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_16",
+        "tag": "proxy-17",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7863,7 +8276,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_17",
+        "tag": "proxy-18",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7908,7 +8321,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_18",
+        "tag": "proxy-19",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7953,7 +8366,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_19",
+        "tag": "proxy-20",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -7983,7 +8396,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_20",
+        "tag": "proxy-21",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8043,7 +8456,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_21",
+        "tag": "proxy-22",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8088,7 +8501,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_22",
+        "tag": "proxy-23",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8133,7 +8546,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_23",
+        "tag": "proxy-24",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8178,7 +8591,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_24",
+        "tag": "proxy-25",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8223,7 +8636,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_25",
+        "tag": "proxy-26",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8268,7 +8681,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_26",
+        "tag": "proxy-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8313,7 +8726,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_27",
+        "tag": "proxy-28",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8358,7 +8771,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_28",
+        "tag": "proxy-29",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8403,7 +8816,7 @@
         }
       },
       {
-        "tag": "proxy_MJ_29",
+        "tag": "proxy-30",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -8448,14 +8861,27 @@
         }
       },
       {
-        "tag": "DIRECT",
+        "tag": "direct",
         "protocol": "freedom"
       },
       {
-        "tag": "BLOCK",
+        "tag": "block",
         "protocol": "blackhole"
       }
-    ]
+    ],
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "5s",
+        "interval": "60s",
+        "sampling": 2,
+        "httpMethod": "HEAD",
+        "destination": "https://www.gstatic.com/generate_204",
+        "connectivity": "http://connectivitycheck.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "proxy"
+      ]
+    }
   },
   {
     "dns": {
@@ -10915,7 +11341,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "de8.nngo.cc",
+              "address": "de4.nnmm.me",
               "port": 443,
               "users": [
                 {
@@ -10932,7 +11358,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de8.nngo.cc",
+            "serverName": "de4.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -11762,7 +12188,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nl2.nngo.cc",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -11779,7 +12205,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "nl2.nngo.cc",
+            "serverName": "nl3.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -19293,7 +19719,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.207",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -19310,7 +19736,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -19468,7 +19894,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.207",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -19485,7 +19911,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -19498,7 +19924,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "91.185.83.46",
+              "address": "91.185.83.63",
               "port": 443,
               "users": [
                 {
@@ -20299,7 +20725,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "188.225.58.70",
+              "address": "188.225.33.28",
               "port": 443,
               "users": [
                 {
@@ -20316,7 +20742,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -20329,7 +20755,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.207",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -20346,7 +20772,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -20727,7 +21153,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -20740,7 +21166,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.207",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -20757,7 +21183,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -20966,7 +21392,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z1.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -20979,7 +21405,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.207",
+              "address": "95.163.232.88",
               "port": 443,
               "users": [
                 {
@@ -20996,7 +21422,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z1.nnmm.me",
+            "serverName": "z7.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -28794,7 +29220,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-y5zn2q",
+        "tag": "tk-vlgnlw",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -28827,7 +29253,7 @@
         }
       },
       {
-        "tag": "tk-h921ix",
+        "tag": "tk-fx46rq",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -28860,7 +29286,7 @@
         }
       },
       {
-        "tag": "tk-awkikv",
+        "tag": "tk-mv8z3w",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -28893,7 +29319,7 @@
         }
       },
       {
-        "tag": "tk-atgj8w",
+        "tag": "tk-yswtvp",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -28926,7 +29352,7 @@
         }
       },
       {
-        "tag": "tk-4u1n9h",
+        "tag": "tk-doq5fp",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -28959,7 +29385,7 @@
         }
       },
       {
-        "tag": "tk-ujyxo6",
+        "tag": "tk-9ca5cu",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -29008,12 +29434,12 @@
       "probeInterval": "30s",
       "probeUrl": "https://www.google.com/generate_204",
       "subjectSelector": [
-        "tk-y5zn2q",
-        "tk-h921ix",
-        "tk-awkikv",
-        "tk-atgj8w",
-        "tk-4u1n9h",
-        "tk-ujyxo6"
+        "tk-vlgnlw",
+        "tk-fx46rq",
+        "tk-mv8z3w",
+        "tk-yswtvp",
+        "tk-doq5fp",
+        "tk-9ca5cu"
       ]
     },
     "routing": {
@@ -29040,21 +29466,21 @@
             "http"
           ],
           "network": "tcp,udp",
-          "balancerTag": "tk-pnsep8"
+          "balancerTag": "tk-iocwrq"
         }
       ],
       "balancers": [
         {
-          "tag": "tk-pnsep8",
+          "tag": "tk-iocwrq",
           "selector": [
-            "tk-y5zn2q",
-            "tk-h921ix",
-            "tk-awkikv",
-            "tk-atgj8w",
-            "tk-4u1n9h",
-            "tk-ujyxo6"
+            "tk-vlgnlw",
+            "tk-fx46rq",
+            "tk-mv8z3w",
+            "tk-yswtvp",
+            "tk-doq5fp",
+            "tk-9ca5cu"
           ],
-          "fallbackTag": "tk-y5zn2q",
+          "fallbackTag": "tk-vlgnlw",
           "strategy": {
             "type": "leastPing"
           }
@@ -29110,7 +29536,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-18v25m",
+        "tag": "tk-0j58zr",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -29150,7 +29576,7 @@
         }
       },
       {
-        "tag": "tk-xwc0yd",
+        "tag": "tk-7qoj21",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -29190,7 +29616,7 @@
         }
       },
       {
-        "tag": "tk-ugx2rs",
+        "tag": "tk-7wspif",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -29216,7 +29642,7 @@
         }
       },
       {
-        "tag": "tk-qfhaxv",
+        "tag": "tk-21k34q",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -29242,7 +29668,7 @@
         }
       },
       {
-        "tag": "tk-dcvpru",
+        "tag": "tk-1f47a4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -29298,11 +29724,11 @@
       "probeInterval": "30s",
       "probeUrl": "https://www.google.com/generate_204",
       "subjectSelector": [
-        "tk-18v25m",
-        "tk-xwc0yd",
-        "tk-ugx2rs",
-        "tk-qfhaxv",
-        "tk-dcvpru"
+        "tk-0j58zr",
+        "tk-7qoj21",
+        "tk-7wspif",
+        "tk-21k34q",
+        "tk-1f47a4"
       ]
     },
     "routing": {
@@ -29329,20 +29755,20 @@
             "http"
           ],
           "network": "tcp,udp",
-          "balancerTag": "tk-sj6zoz"
+          "balancerTag": "tk-w0tbxi"
         }
       ],
       "balancers": [
         {
-          "tag": "tk-sj6zoz",
+          "tag": "tk-w0tbxi",
           "selector": [
-            "tk-18v25m",
-            "tk-xwc0yd",
-            "tk-ugx2rs",
-            "tk-qfhaxv",
-            "tk-dcvpru"
+            "tk-0j58zr",
+            "tk-7qoj21",
+            "tk-7wspif",
+            "tk-21k34q",
+            "tk-1f47a4"
           ],
-          "fallbackTag": "tk-18v25m",
+          "fallbackTag": "tk-0j58zr",
           "strategy": {
             "type": "leastPing"
           }
@@ -29417,7 +29843,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-q46f0q",
+        "tag": "tk-m3emit",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -29532,7 +29958,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-bq9yfj",
+        "tag": "tk-venjp6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -29644,7 +30070,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-0dmid2",
+        "tag": "tk-lu72li",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -29756,7 +30182,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-fhbphb",
+        "tag": "tk-a9id3d",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -29868,7 +30294,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-1ulwoj",
+        "tag": "tk-mu7d55",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -29980,7 +30406,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-o5wi5a",
+        "tag": "tk-uaoe3f",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -30092,7 +30518,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-ikq47f",
+        "tag": "tk-k0puqi",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -30204,7 +30630,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-vh0xgv",
+        "tag": "tk-2qqmwy",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -30316,7 +30742,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-fc1wtw",
+        "tag": "tk-ovzdkn",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -30435,7 +30861,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-4yixyz",
+        "tag": "tk-iaej4a",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -30554,7 +30980,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-ubrjxr",
+        "tag": "tk-sqic5g",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -30659,7 +31085,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-3bqydi",
+        "tag": "tk-qbg094",
         "protocol": "hysteria",
         "settings": {
           "version": 2,
@@ -30764,7 +31190,7 @@
     ],
     "outbounds": [
       {
-        "tag": "tk-rwlcaj",
+        "tag": "tk-cavds5",
         "protocol": "vless",
         "settings": {
           "vnext": [
