@@ -762,7 +762,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "pl3.nnmm.me",
+              "address": "fr2.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -779,7 +779,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "pl3.nnmm.me",
+            "serverName": "fr2.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -2454,7 +2454,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "de1.nngo.cc",
+              "address": "de.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -2471,7 +2471,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "de1.nngo.cc",
+            "serverName": "de.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -3300,7 +3300,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nl4.nnmm.me",
+              "address": "nl3.nngo.cc",
               "port": 443,
               "users": [
                 {
@@ -3317,7 +3317,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "nl4.nnmm.me",
+            "serverName": "nl3.nngo.cc",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -4150,7 +4150,7 @@
         "settings": {
           "servers": [
             {
-              "address": "sw.nnmm.me",
+              "address": "sw1.nnmm.me",
               "port": 443,
               "password": "DWVUe_6GuU4py1EtrkEc-YXJQVyfVxuD"
             }
@@ -4161,7 +4161,7 @@
           "tcpSettings": {},
           "security": "tls",
           "tlsSettings": {
-            "serverName": "sw.nnmm.me",
+            "serverName": "sw1.nnmm.me",
             "enableSessionResumption": false,
             "fingerprint": "firefox",
             "alpn": [
@@ -5840,7 +5840,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "pl2.nngo.cc",
+              "address": "pl3.nnmm.me",
               "port": 443,
               "users": [
                 {
@@ -5857,7 +5857,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "pl2.nngo.cc",
+            "serverName": "pl3.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -10794,7 +10794,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "fr2.nngo.cc",
+              "address": "nl1.nnmm.me",
               "port": 443,
               "users": [
                 {
@@ -10811,7 +10811,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "fr2.nngo.cc",
+            "serverName": "nl1.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -10824,7 +10824,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.166",
+              "address": "79.174.92.170",
               "port": 443,
               "users": [
                 {
@@ -10841,7 +10841,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z8.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -10999,7 +10999,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.166",
+              "address": "79.174.92.170",
               "port": 443,
               "users": [
                 {
@@ -11016,7 +11016,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z8.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -11046,7 +11046,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z5.nnmm.me",
+            "serverName": "z.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -11830,7 +11830,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "188.225.37.85",
+              "address": "188.225.37.201",
               "port": 443,
               "users": [
                 {
@@ -11847,7 +11847,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z9.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "firefox"
@@ -11860,7 +11860,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.166",
+              "address": "79.174.92.170",
               "port": 443,
               "users": [
                 {
@@ -11877,7 +11877,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z8.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -12258,7 +12258,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z10.nnmm.me",
+            "serverName": "z2.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -12271,7 +12271,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.166",
+              "address": "79.174.92.170",
               "port": 443,
               "users": [
                 {
@@ -12288,7 +12288,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z8.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -12497,7 +12497,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z2.nnmm.me",
+            "serverName": "z6.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
@@ -12510,7 +12510,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "95.163.232.166",
+              "address": "79.174.92.170",
               "port": 443,
               "users": [
                 {
@@ -12527,7 +12527,7 @@
           "tcpSettings": {},
           "security": "reality",
           "realitySettings": {
-            "serverName": "z4.nnmm.me",
+            "serverName": "z8.nnmm.me",
             "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
             "shortId": "f563475dd0fa4129",
             "fingerprint": "qq"
