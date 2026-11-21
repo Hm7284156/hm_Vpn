@@ -1,0 +1,710 @@
+[
+  {
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "domain:max.ru",
+            "domain:oneme.ru"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "domain:rtk.harknmav.fun",
+            "domain:sub.harknmav.fun",
+            "domain:st.harknmav.ru",
+            "domain:sberbank.ru",
+            "domain:sberbank.com",
+            "domain:sbrf.ru",
+            "full:sber.ru",
+            "full:www.sber.ru",
+            "domain:online.sber.ru",
+            "domain:id.sber.ru",
+            "domain:tbank.ru",
+            "domain:tinkoff.ru",
+            "domain:tcsbank.ru",
+            "keyword:tbank-online",
+            "keyword:t-bank-app",
+            "keyword:cdn-tinkoff",
+            "domain:t-static.ru",
+            "keyword:yandex",
+            "domain:ya.ru",
+            "domain:ya.cc",
+            "keyword:yastat",
+            "keyword:yndx",
+            "keyword:yccdn",
+            "keyword:clck",
+            "keyword:kinopoisk",
+            "domain:mvk.com",
+            "domain:vk.com",
+            "domain:vk.ru",
+            "domain:vk.cc",
+            "domain:vk.link",
+            "domain:vk.me",
+            "keyword:vkontakte",
+            "keyword:userapi",
+            "keyword:cdn-vk",
+            "keyword:vk-cdn",
+            "keyword:vk-portal",
+            "keyword:vkcache",
+            "keyword:vkcdnservice",
+            "keyword:vkuser",
+            "keyword:vkmessenger",
+            "keyword:vk-apps",
+            "keyword:vkvideo",
+            "keyword:vkclips",
+            "keyword:vklive",
+            "keyword:boom",
+            "domain:ok.ru",
+            "domain:ok.me",
+            "domain:okl.lt",
+            "keyword:odnoklassniki",
+            "keyword:odnoklasniki",
+            "keyword:odkl",
+            "domain:okcdn.ru",
+            "keyword:apiok",
+            "keyword:insideok",
+            "keyword:mycdn",
+            "keyword:mrgcdn",
+            "domain:mts.ru",
+            "keyword:mymts",
+            "keyword:mts-ws",
+            "keyword:wildberries",
+            "domain:wb.ru",
+            "keyword:wb-basket",
+            "keyword:wbbasket",
+            "keyword:wbcontent",
+            "keyword:wbstatic",
+            "keyword:wb-sale",
+            "keyword:wbpay",
+            "keyword:paywb",
+            "keyword:ozon",
+            "domain:o3.ru",
+            "keyword:samokat",
+            "keyword:megamarket",
+            "keyword:rustore",
+            "keyword:avito",
+            "keyword:2gis",
+            "keyword:rutube",
+            "keyword:rtbcdn",
+            "keyword:alfa",
+            "domain:vtb.ru",
+            "keyword:vtb-direct",
+            "keyword:vtbglobalperspectives",
+            "keyword:gazprombank",
+            "domain:gpb.ru",
+            "domain:psb.ru",
+            "keyword:psbank",
+            "keyword:psb-ocenka",
+            "keyword:moex",
+            "keyword:finuslugi",
+            "keyword:nspk",
+            "keyword:mironline",
+            "keyword:mir-platform",
+            "keyword:sberdevices",
+            "keyword:zvuk",
+            "keyword:sbermobile",
+            "keyword:sberdisk",
+            "keyword:okko",
+            "keyword:playfamily",
+            "keyword:kuper",
+            "keyword:giga",
+            "domain:mail.ru",
+            "domain:tech-mail.ru",
+            "domain:appsmail.ru",
+            "domain:attachmail.ru",
+            "domain:cdnmail.ru",
+            "domain:imgsmail.ru",
+            "domain:smailru.net",
+            "domain:vmailru.net",
+            "domain:xmail.ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "Super_Balancer"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "Super_Balancer",
+          "selector": [
+            "proxy"
+          ],
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "2500ms",
+              "expected": 2,
+              "tolerance": 0.11
+            }
+          }
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "AsIs"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": true,
+          "destOverride": [
+            "tls"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.176.128.128",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "edge-1-1.fastcon.cc",
+            "path": "/storage/blob/v2/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "part",
+              "seqPlacement": "query",
+              "sessionIDKey": "upload_id",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkHTTPMethod": "POST",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "262144-524288",
+              "sessionIDPlacement": "query",
+              "uplinkDataPlacement": "body",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "edge-1-1.fastcon.cc",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "proxy-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.176.128.128",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "edge-1-2.fastcon.cc",
+            "path": "/clips/hls/v4/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "page",
+              "seqPlacement": "query",
+              "sessionIDKey": "sid",
+              "uplinkDataKey": "X-Client-Data",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkChunkSize": "2048-3072",
+              "uplinkHTTPMethod": "GET",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "8192-16384",
+              "sessionIDPlacement": "cookie",
+              "uplinkDataPlacement": "header",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "edge-1-2.fastcon.cc",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "proxy-3",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.176.128.128",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "edge-2-1.fastcon.cc",
+            "path": "/storage/blob/v2/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "part",
+              "seqPlacement": "query",
+              "sessionIDKey": "upload_id",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkHTTPMethod": "POST",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "262144-524288",
+              "sessionIDPlacement": "query",
+              "uplinkDataPlacement": "body",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "edge-2-1.fastcon.cc",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "proxy-4",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.176.128.128",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "edge-2-2.fastcon.cc",
+            "path": "/clips/hls/v4/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "page",
+              "seqPlacement": "query",
+              "sessionIDKey": "sid",
+              "uplinkDataKey": "X-Client-Data",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkChunkSize": "2048-3072",
+              "uplinkHTTPMethod": "GET",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "8192-16384",
+              "sessionIDPlacement": "cookie",
+              "uplinkDataPlacement": "header",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "edge-2-2.fastcon.cc",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "proxy-5",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.176.128.128",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "edge-3-1.fastcon.cc",
+            "path": "/storage/blob/v2/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "part",
+              "seqPlacement": "query",
+              "sessionIDKey": "upload_id",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkHTTPMethod": "POST",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "262144-524288",
+              "sessionIDPlacement": "query",
+              "uplinkDataPlacement": "body",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "edge-3-1.fastcon.cc",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "proxy-6",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.176.128.128",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "edge-3-2.fastcon.cc",
+            "path": "/clips/hls/v4/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "page",
+              "seqPlacement": "query",
+              "sessionIDKey": "sid",
+              "uplinkDataKey": "X-Client-Data",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkChunkSize": "2048-3072",
+              "uplinkHTTPMethod": "GET",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "8192-16384",
+              "sessionIDPlacement": "cookie",
+              "uplinkDataPlacement": "header",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "edge-3-2.fastcon.cc",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "proxy-7",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.176.128.128",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "edge-4-1.fastcon.cc",
+            "path": "/storage/blob/v2/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "part",
+              "seqPlacement": "query",
+              "sessionIDKey": "upload_id",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkHTTPMethod": "POST",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "262144-524288",
+              "sessionIDPlacement": "query",
+              "uplinkDataPlacement": "body",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "edge-4-1.fastcon.cc",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "proxy-8",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.176.128.128",
+              "port": 443,
+              "users": [
+                {
+                  "id": "97ab1a9a-18e5-4d28-87da-657c8df1f539",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "mode": "packet-up",
+            "host": "edge-4-2.fastcon.cc",
+            "path": "/clips/hls/v4/",
+            "extra": {
+              "xmux": {
+                "cMaxReuseTimes": 0,
+                "maxConnections": 3,
+                "hKeepAlivePeriod": 0,
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000"
+              },
+              "seqKey": "page",
+              "seqPlacement": "query",
+              "sessionIDKey": "sid",
+              "uplinkDataKey": "X-Client-Data",
+              "xPaddingBytes": "24-48",
+              "sessionIDTable": "Base62",
+              "xPaddingHeader": "X-Request-Id",
+              "xPaddingMethod": "tokenish",
+              "sessionIDLength": "20-24",
+              "uplinkChunkSize": "2048-3072",
+              "uplinkHTTPMethod": "GET",
+              "xPaddingObfsMode": true,
+              "xPaddingPlacement": "header",
+              "scMaxEachPostBytes": "8192-16384",
+              "sessionIDPlacement": "cookie",
+              "uplinkDataPlacement": "header",
+              "scMinPostsIntervalMs": "20-40"
+            }
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "edge-4-2.fastcon.cc",
+            "enableSessionResumption": false,
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "5s",
+        "interval": "30s",
+        "sampling": 3,
+        "httpMethod": "HEAD",
+        "destination": "https://www.gstatic.com/generate_204",
+        "connectivity": "http://connectivitycheck.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "proxy"
+      ]
+    },
+    "remarks": "[MJ] Пока что не будет работать",
+    "meta": {
+      "serverDescription": "Lite"
+    }
+  }
+]
